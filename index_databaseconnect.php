@@ -40,7 +40,7 @@
     			$sql = "INSERT INTO `Users`(`name`, `surname`, `email`, `password`) VALUES ('$name','$surname','$email','$psw')";
     			// use exec() because no results are returned
     			$conn->exec($sql);
-    			echo "<form action='index.php' method='post'>New record created successfully<br>"; 
+    			echo "<form action='index_databaseconnect.php' method='post'>New record created successfully<br>"; 
     			$sql = "SELECT * FROM `Users`";
     			echo "The list of users is: <br>"; 
     			foreach($conn->query($sql) as $row){
