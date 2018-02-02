@@ -63,7 +63,7 @@
     			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     			foreach($_POST as $index => $value){
     				if($_POST["$index"] == "tupla"){
-    					$sql = "DELETE FROM `Users` WHERE email = $index";
+    					$sql = "DELETE FROM `Users` WHERE `Email` = '$index'";
     					$conn->exec($sql);
     				} 
     			}
