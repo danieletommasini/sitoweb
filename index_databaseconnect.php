@@ -9,7 +9,7 @@
 <body>
 
 	<form class="form" action="index_databaseconnect.php" method="post"> <br>
-		-------------- INSERT NEW SAILOR -------------- <br><br>
+		-------------- INSERT NEW USER -------------- <br><br>
 		Name: <input type="text" name="name"> <br>
 		Surname: <input type="text" name="surname"> <br>
 		Email: <input type="text" name="email"> <br>
@@ -44,11 +44,11 @@
     			$sql = "SELECT * FROM `Users`";
     			echo "The list of users is: <br>"; 
     			foreach($conn->query($sql) as $row){
-    				$id = $row['email'];
+    				$id = $row['Email'];
     				echo "<input type='checkbox' name='$id' value='tupla'> ";
-    				print $row['name'] . "\t";
-    				print $row['surname'] . "\t";
-    				print $row['email'] . "<br>";
+    				print $row['Name'] . "\t";
+    				print $row['Surname'] . "\t";
+    				print $row['Email'] . "<br>";
     			}
     			echo "<input type='submit' name='delete' value='DELETE'></form>";
    			} catch(PDOException $e) {
@@ -67,15 +67,15 @@
     					$conn->exec($sql);
     				} 
     			}
-    			echo "<form action='index.php' method='post'>Record(s) deleted successfully<br>"; 
+    			echo "<form action='index_databaseconnect.php' method='post'>Record(s) deleted successfully<br>"; 
     			$sql = "SELECT * FROM `Users`";
     			echo "The list of users is: <br>"; 
     			foreach($conn->query($sql) as $row){
-    				$id = $row['email'];
+    				$id = $row['Email'];
     				echo "<input type='checkbox' name='$id' value='tupla'> ";
-    				print $row['name'] . "\t";
-    				print $row['surname'] . "\t";
-    				print $row['email'] . "<br>";
+    				print $row['Name'] . "\t";
+    				print $row['Surname'] . "\t";
+    				print $row['Email'] . "<br>";
     			}
     			echo "<input type='submit' name='delete' value='DELETE'></form>";
     		} catch(PDOException $e) {
