@@ -45,7 +45,7 @@
     			echo "The list of users is: <br>"; 
     			foreach($conn->query($sql) as $row){
     				$id = $row['Email'];
-    				echo "<input type='checkbox' name='$id' value='tupla'> ";
+    				echo "<input type='checkbox' name='$id'> ";
     				print $row['Name'] . "\t";
     				print $row['Surname'] . "\t";
     				print $row['Email'] . "<br>";
@@ -72,7 +72,7 @@
     			echo "The list of users is: <br>"; 
     			foreach($conn->query($sql) as $row){
     				$id = $row['Email'];
-    				echo "<input type='checkbox' name='$id' value='tupla'> ";
+    				echo "<input type='checkbox' name='$id'> ";
     				print $row['Name'] . "\t";
     				print $row['Surname'] . "\t";
     				print $row['Email'] . "<br>";
