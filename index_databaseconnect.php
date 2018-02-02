@@ -8,11 +8,12 @@
 </head>
 <body>
 
-	<form class="form" action="index.php" method="post"> <br>
+	<form class="form" action="index_databaseconnect.php" method="post"> <br>
 		-------------- INSERT NEW SAILOR -------------- <br><br>
 		Name: <input type="text" name="name"> <br>
 		Surname: <input type="text" name="surname"> <br>
-		Boat ID: <input type="number" name="boatid" value="1"> <br><br>
+		Email: <input type="text" name="email"> <br>
+		Password: <input type="text" name="psw"> <br><br>
 		<input type="submit" name="insert" value="INSERT"> <br><br>
 	</form>
 	
@@ -20,33 +21,34 @@
 
 	<?php
 		$servername = "localhost";
-		$username = "root";
+		$username = "danieletommasini";
 		$password = "";
-		$dbname = "databoat";
+		$dbname = "Utenti";
 
-		if(array_key_exists('name', $_POST) && array_key_exists('surname', $_POST) && array_key_exists('boatid', $_POST)){
+		if(array_key_exists('name', $_POST) && array_key_exists('surname', $_POST) && array_key_exists('email', $_POST) && array_key_exists('psw', $_POST)){
 	
 			$name = $_POST["name"];
 			$surname = $_POST["surname"];
-			$boatid = $_POST["boatid"];
+			$email = $_POST["email"];
+			$psw = $_POST["psw"];
 	
 	
 			try {
    				$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     			// set the PDO error mode to exception
     			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    			$sql = "INSERT INTO `marinaio`(`nome`, `cognome`, `idbarca`) VALUES ('$name','$surname','$boatid')";
+    			$sql = "INSERT INTO `Users`(`name`, `surname`, `email`, `password`) VALUES ('$name','$surname','$email','$psw')";
     			// use exec() because no results are returned
     			$conn->exec($sql);
     			echo "<form action='index.php' method='post'>New record created successfully<br>"; 
-    			$sql = "SELECT * FROM `marinaio`";
-    			echo "The list of sailors is: <br>"; 
+    			$sql = "SELECT * FROM `Users`";
+    			echo "The list of users is: <br>"; 
     			foreach($conn->query($sql) as $row){
-    				$id = $row['idmarinaio'];
+    				$id = $row['email'];
     				echo "<input type='checkbox' name='$id' value='tupla'> ";
-    				print $row['nome'] . "\t";
-    				print $row['cognome'] . "\t";
-    				print $row['idbarca'] . "<br>";
+    				print $row['name'] . "\t";
+    				print $row['surname'] . "\t";
+    				print $row['email'] . "<br>";
     			}
     			echo "<input type='submit' name='delete' value='DELETE'></form>";
    			} catch(PDOException $e) {
@@ -61,19 +63,19 @@
     			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     			foreach($_POST as $index => $value){
     				if($_POST["$index"] == "tupla"){
-    					$sql = "DELETE FROM `marinaio` WHERE idmarinaio = $index";
+    					$sql = "DELETE FROM `Users` WHERE email = $index";
     					$conn->exec($sql);
     				} 
     			}
     			echo "<form action='index.php' method='post'>Record(s) deleted successfully<br>"; 
-    			$sql = "SELECT * FROM `marinaio`";
-    			echo "The list of sailors is: <br>"; 
+    			$sql = "SELECT * FROM `Users`";
+    			echo "The list of users is: <br>"; 
     			foreach($conn->query($sql) as $row){
-    				$id = $row['idmarinaio'];
+    				$id = $row['email'];
     				echo "<input type='checkbox' name='$id' value='tupla'> ";
-    				print $row['nome'] . "\t";
-    				print $row['cognome'] . "\t";
-    				print $row['idbarca'] . "<br>";
+    				print $row['name'] . "\t";
+    				print $row['surname'] . "\t";
+    				print $row['email'] . "<br>";
     			}
     			echo "<input type='submit' name='delete' value='DELETE'></form>";
     		} catch(PDOException $e) {
