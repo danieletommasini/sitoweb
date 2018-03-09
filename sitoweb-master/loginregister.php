@@ -28,7 +28,7 @@
 
     			if(isset($_POST["register"])){
     				$username = $_POST["username"];
-					$sql = $conn->prepare("SELECT username FROM users WHERE username LIKE '$username'");
+					$sql = $conn->prepare("SELECT email FROM users WHERE email LIKE '$username'");
 					$sql->execute();
                 	$result = $sql->fetchAll();
 					
