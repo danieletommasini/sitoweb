@@ -46,7 +46,7 @@
           </p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
       </div>
     </div>
 
@@ -66,11 +66,11 @@ $(document).ready(function(){
 <nav class="navbar navbar-inverse" >
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#"><p style="color : green; ">S</p><p style="color:red;font-family:‘Courier New’, Courier, monospace">C</p><p style="color:blue;font-family:‘Courier New’, Courier, monospace">S</p></a>
+      <a class="navbar-brand active" href="#"><p style="color : green; ">S</p><p style="color:red;font-family:‘Courier New’, Courier, monospace">C</p><p style="color:blue;font-family:‘Courier New’, Courier, monospace">S</p></a>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="#">Arduino</a></li>
-      <li><a href="#">C/C++</a></li>
+      <li><a href="partials/cpp.php">C/C++</a></li>
       <li><a href="#">Java</a></li>
       <li><a href="#">Html</a></li>
       <li><a href="#">Css</a></li>
@@ -82,15 +82,6 @@ $(document).ready(function(){
   </div>
 </nav>
   
-  <!--<?php
-    session_start();
-    if(!isset($_SESSION["id"])){
-      include "login.php";
-    } else {
-      echo $_SESSION["id"] . " <form class='form' action='loginregister.php' method='post'>
-            <input type='submit' name='logout' value='LOGOUT'><br><br> 
-            </form>";
-    }
-  ?>-->
+
     </body>
 </html>
