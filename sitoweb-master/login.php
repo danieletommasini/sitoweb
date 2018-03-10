@@ -1,6 +1,6 @@
 <form class="form" action="loginregister.php" method="post"> <br>
-		Username: <input type="text" name="username"> 
-		Password: <input type="password" name="password"> 
-		<input type="submit" name="register" value="SIGN IN"> 
-		<input type="submit" name="login" value="LOG IN"> 
+		Username: <input type="text" name="username"> <br>
+		Password: <input type="password" name="password"><br><br>
+		<input class="btn btn-primary btn-md" type="submit" name="register" value="SIGN IN" style=" padding: 5px 16px; border-radius:5px;" > 
+		<input class="btn btn-primary btn-md" type="submit" name="login" value="LOG IN" style=" padding: 5px 16px; border-radius:5px;" >
 </form>
