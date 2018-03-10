@@ -2,6 +2,6 @@
 <html>
 <?php require("toolbar.php");?>
 <body>
-    c++
+    html
 </body>
 </html>
