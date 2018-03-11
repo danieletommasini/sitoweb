@@ -268,3 +268,95 @@
 [10-Mar-2018 16:54:00 UTC] PHP Stack trace:
 [10-Mar-2018 16:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:0
 [10-Mar-2018 16:54:00 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:3
+[11-Mar-2018 16:57:10 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:10 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:0
+[11-Mar-2018 16:57:10 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:3
+[11-Mar-2018 16:57:10 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:10 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:0
+[11-Mar-2018 16:57:10 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:3
+[11-Mar-2018 16:57:11 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:11 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:0
+[11-Mar-2018 16:57:11 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:3
+[11-Mar-2018 16:57:11 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:11 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:0
+[11-Mar-2018 16:57:11 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:3
+[11-Mar-2018 16:57:13 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:13 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/java.php:0
+[11-Mar-2018 16:57:13 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/java.php:3
+[11-Mar-2018 16:57:13 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:13 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/java.php:0
+[11-Mar-2018 16:57:13 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/java.php:3
+[11-Mar-2018 16:57:16 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:16 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/cpp.php:0
+[11-Mar-2018 16:57:16 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/cpp.php:3
+[11-Mar-2018 16:57:16 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:16 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/cpp.php:0
+[11-Mar-2018 16:57:16 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/cpp.php:3
+[11-Mar-2018 16:57:18 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:18 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/java.php:0
+[11-Mar-2018 16:57:18 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/java.php:3
+[11-Mar-2018 16:57:18 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:18 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/java.php:0
+[11-Mar-2018 16:57:18 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/java.php:3
+[11-Mar-2018 16:57:23 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:23 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[11-Mar-2018 16:57:23 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[11-Mar-2018 16:57:23 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:57:23 UTC] PHP Stack trace:
+[11-Mar-2018 16:57:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[11-Mar-2018 16:57:23 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[11-Mar-2018 16:58:07 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:58:07 UTC] PHP Stack trace:
+[11-Mar-2018 16:58:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:0
+[11-Mar-2018 16:58:07 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:3
+[11-Mar-2018 16:58:07 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:58:07 UTC] PHP Stack trace:
+[11-Mar-2018 16:58:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:0
+[11-Mar-2018 16:58:07 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:3
+[11-Mar-2018 16:58:51 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:58:51 UTC] PHP Stack trace:
+[11-Mar-2018 16:58:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:0
+[11-Mar-2018 16:58:51 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:3
+[11-Mar-2018 16:58:51 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:58:51 UTC] PHP Stack trace:
+[11-Mar-2018 16:58:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:0
+[11-Mar-2018 16:58:51 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/php.php:3
+[11-Mar-2018 16:58:56 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:58:56 UTC] PHP Stack trace:
+[11-Mar-2018 16:58:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:0
+[11-Mar-2018 16:58:56 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:3
+[11-Mar-2018 16:58:56 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:58:56 UTC] PHP Stack trace:
+[11-Mar-2018 16:58:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:0
+[11-Mar-2018 16:58:56 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:3
+[11-Mar-2018 16:59:03 UTC] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:59:03 UTC] PHP Stack trace:
+[11-Mar-2018 16:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:0
+[11-Mar-2018 16:59:03 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:3
+[11-Mar-2018 16:59:03 UTC] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:59:03 UTC] PHP Stack trace:
+[11-Mar-2018 16:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:0
+[11-Mar-2018 16:59:03 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:3
+[11-Mar-2018 16:59:55 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:59:55 UTC] PHP Stack trace:
+[11-Mar-2018 16:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:0
+[11-Mar-2018 16:59:55 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:3
+[11-Mar-2018 16:59:55 UTC] PHP Warning:  include(https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/login.php): failed to open stream: no suitable wrapper could be found in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:59:55 UTC] PHP Stack trace:
+[11-Mar-2018 16:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:0
+[11-Mar-2018 16:59:55 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:3
+[11-Mar-2018 16:59:55 UTC] PHP Warning:  include(): Failed opening 'https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/login.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 38
+[11-Mar-2018 16:59:55 UTC] PHP Stack trace:
+[11-Mar-2018 16:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:0
+[11-Mar-2018 16:59:55 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/javascript.php:3
