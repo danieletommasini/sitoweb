@@ -80,6 +80,7 @@ $(document).ready(function(){
         
 <nav class="navbar navbar-inverse" >
   <div class="container-fluid">
+<!--    <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 hidesm" href="javascript:void(0)" onclick="w3_open()"><i class="fa">X</i></a>-->
     <div class="navbar-header">
    <a class="navbar-brand" href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/"><p style="font-family:Impact, Charcoal, sans-serif">Scs</p></a>
     </div>
