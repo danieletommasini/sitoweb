@@ -17,7 +17,7 @@
      <!-- GIOVANNI FALCONE <a href="#" class="btn btn-default" data-toggle="popover" data-placement="bottom" style="position: absolute; right: 2%; top: 1%;z-index:10;" data-content="Contentrtert">Login </a>-->
     <!--   <button class="btn btn-default" style="position: absolute; right: 2%; top: 1%;z-index:10;">Login</button>-->
 
-<button type="button" class="btn btn-success btn-lg" style="position: absolute; right: 2%; top: 1%;z-index:10; padding: 5px 16px;" data-toggle="modal" data-target="#myModal">Login</button>
+<button type="button" class="btn btn-success btn-lg" style="position: absolute; right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal">Login</button>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
