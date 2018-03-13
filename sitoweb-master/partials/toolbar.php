@@ -25,20 +25,20 @@ $(document).ready(function(){
 
 
         
-<nav class="navbar navbar-inverse" >
+<nav class="navbar navbar-inverse navbar-fixed-top" >
   <div class="container-fluid">
 <!--    <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 hidesm" href="javascript:void(0)" onclick="w3_open()"><i class="fa">X</i></a>-->
     <div class="navbar-header">
-   <a class="navbar-brand" href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/"><p style="font-family:Impact, Charcoal, sans-serif">Scs</p></a>
+   <a class="navbar-brand" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/"><p style="font-family:Impact, Charcoal, sans-serif">Scs</p></a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/arduino.php">Arduino</a></li>
-      <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/cpp.php">C/C++</a></li>
-      <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/java.php">Java</a></li>
-      <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/html.php">Html</a></li>
-      <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/css.php">Css</a></li>
-      <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/javascript.php">JavaScript</a></li>
-      <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/php.php">Php</a></li>
+      <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/arduino.php">Arduino</a></li>
+      <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/cpp.php">C/C++</a></li>
+      <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/java.php">Java</a></li>
+      <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/html.php">Html</a></li>
+      <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/css.php">Css</a></li>
+      <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/javascript.php">JavaScript</a></li>
+      <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/php.php">Php</a></li>
      <!-- <li>  <div class="input-group">
         <input type="text" class="form-control" placeholder="Search ..">
         <span class="input-group-btn">
@@ -51,12 +51,11 @@ $(document).ready(function(){
 
     </ul>
 
-    <ul class="nav navbar-nav navbar-right">
-      <li>
+<div class="nav navbar-nav navbar-right">
         <!--  <li><span  data-toggle="modal" data-target="#myModal" class="glyphicon glyphicon-user"></span> Sign Up</a></li>
       <li><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
         
-<span class="glyphicon glyphicon-log-in"><button type="button" class="btn btn-success btn-lg" style=" right: 8%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+<button type="button" class="btn btn-success btn-lg" style=" right: 8%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</button>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
@@ -69,7 +68,7 @@ $(document).ready(function(){
         <h4 class="modal-title">Login/Registered</h4>
       </div>
       <div class="modal-body">
-        <p>
+      
           
             <?php
     session_start();
@@ -82,7 +81,6 @@ $(document).ready(function(){
     }
   ?>
   
-          </p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
@@ -91,10 +89,8 @@ $(document).ready(function(){
 
   </div>
 </div>
-</li>
-<li>
 <!-- ___________________________________________________-->
-<button type="button" class="btn btn-success btn-lg" style=" right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#signin">Sing up</button>
+<button type="button" class="btn btn-success btn-lg" style=" right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#signin"><span class="glyphicon glyphicon-user"></span> Sing In</button>
 
 <!-- Modal -->
 <div id="signin" class="modal fade" role="dialog">
@@ -106,10 +102,8 @@ $(document).ready(function(){
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title">SignIn</h4>
       </div>
-      <div class="modal-body">
-        <p>
-          
-            <?php
+    <div class="modal-body">
+  <?php
     session_start();
     if(!isset($_SESSION["id"])){
     include"/home/ubuntu/workspace/sitoweb/sitoweb-master/signin.php";
@@ -119,18 +113,15 @@ $(document).ready(function(){
             </form>";
     }
   ?>
-  
-          </p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+        </div>
       </div>
-    </div>
 
   </div>
 </div>
-</li>
-</ul>
+</div>
 
   </div>
 </nav>
