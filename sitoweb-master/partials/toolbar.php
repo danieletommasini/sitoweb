@@ -67,6 +67,7 @@
 
   </div>
 </div>
+<button type="button" class="btn btn-success btn-lg" style="position: absolute; right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal">Sing up</button>
 
 
 
@@ -92,7 +93,15 @@ $(document).ready(function(){
       <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/css.php">Css</a></li>
       <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/javascript.php">JavaScript</a></li>
       <li><a href="https://lamp-project-giugie-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/php.php">Php</a></li>
-
+     <!-- <li>  <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search ..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div></li>
+-->
 
     </ul>
   </div>
