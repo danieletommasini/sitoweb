@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 
         
-<nav class="navbar navbar-inverse navbar-static-top" >
+<nav class="navbar navbar-inverse navbar-static-top" style="z-index: unset">
   <div class="container-fluid">
 <!--    <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 hidesm" href="javascript:void(0)" onclick="w3_open()"><i class="fa">X</i></a>-->
     <div class="navbar-header">
@@ -51,7 +51,7 @@ $(document).ready(function(){
 
     </ul>
 <div class="navbar-right" style="margin-right: 0px">
-<button type="button" class="btn btn-success btn-lg navbar-btn" style=" right: 8%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+<button type="button" class="btn btn-success btn-lg navbar-btn" style=" right: 8%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Log In</button>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
@@ -61,7 +61,7 @@ $(document).ready(function(){
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Login/Registered</h4>
+        <h4 class="modal-title">Log In</h4>
       </div>
       <div class="modal-body">
       
@@ -98,7 +98,7 @@ $(document).ready(function(){
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">SignIn</h4>
+        <h4 class="modal-title">Sign In</h4>
       </div>
     <div class="modal-body">
   <?php
