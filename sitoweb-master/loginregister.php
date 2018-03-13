@@ -20,7 +20,7 @@
     		echo "<a href='index.php'>Do you want to login?</a>";
     	}
 
-		if(array_key_exists('username', $_POST) && array_key_exists('password', $_POST)){
+		if(array_key_exists('email', $_POST) && array_key_exists('password', $_POST)){
 			try {
    				$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     			// set the PDO error mode to exception
