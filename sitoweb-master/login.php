@@ -3,7 +3,7 @@
 <div class='input-group'>
       <span class='input-group-addon'><i class='glyphicon glyphicon-envelope'></i></span>
       
-      <input id='email' type='text' class='form-control' name='email' placeholder='Email'<!--INPUT-->
+      <input id='email' type='text' class='form-control' name='email' placeholder='Email'><!--INPUT-->
     </div>
     <div class='input-group'>
       <span class='input-group-addon'><i class='glyphicon glyphicon-lock'></i></span>
