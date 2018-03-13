@@ -4,7 +4,7 @@
 <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
       
-      <input id="username" type="text" class="form-control" name="username" placeholder="username"><!--INPUT-->
+      <input id="email" type="text" class="form-control" name="email" placeholder="email"><!--INPUT-->
     </div>
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
