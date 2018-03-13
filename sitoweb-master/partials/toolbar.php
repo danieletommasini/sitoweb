@@ -25,7 +25,7 @@ $(document).ready(function(){
 
 
         
-<nav class="navbar navbar-inverse navbar-fixed-top" >
+<nav class="navbar navbar-inverse navbar-static-top" >
   <div class="container-fluid">
 <!--    <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 hidesm" href="javascript:void(0)" onclick="w3_open()"><i class="fa">X</i></a>-->
     <div class="navbar-header">
@@ -50,12 +50,8 @@ $(document).ready(function(){
 -->
 
     </ul>
-
-<div class="nav navbar-nav navbar-right">
-        <!--  <li><span  data-toggle="modal" data-target="#myModal" class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
-        
-<button type="button" class="btn btn-success btn-lg" style=" right: 8%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+<div class="navbar-right" style="margin-right: 0px">
+<button type="button" class="btn btn-success btn-lg navbar-btn" style=" right: 8%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</button>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
@@ -70,7 +66,7 @@ $(document).ready(function(){
       <div class="modal-body">
       
           
-            <?php
+  <?php
     session_start();
     if(!isset($_SESSION["id"])){
      include "/home/ubuntu/workspace/sitoweb/sitoweb-master/login.php";
@@ -89,8 +85,10 @@ $(document).ready(function(){
 
   </div>
 </div>
+
 <!-- ___________________________________________________-->
-<button type="button" class="btn btn-success btn-lg" style=" right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#signin"><span class="glyphicon glyphicon-user"></span> Sing In</button>
+
+<button type="button" class="btn btn-success btn-lg navbar-btn" style=" right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#signin"><span class="glyphicon glyphicon-user"></span> Sing In</button>
 
 <!-- Modal -->
 <div id="signin" class="modal fade" role="dialog">
@@ -113,17 +111,19 @@ $(document).ready(function(){
             </form>";
     }
   ?>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
       </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
-        </div>
-      </div>
+    </div>
 
   </div>
 </div>
+
 </div>
 
-  </div>
+
+</div>
 </nav>
   
 
