@@ -23,9 +23,24 @@ $(document).ready(function(){
 });
 </script>
 
+<style>
+  
+
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 ;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  </style>
+  
+
 
         
-<nav class="navbar navbar-inverse navbar-static-top" style="z-index: unset">
+<nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" data-offset-top="197" style="z-index: unset;position:sticky">
   <div class="container-fluid">
 <!--    <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 hidesm" href="javascript:void(0)" onclick="w3_open()"><i class="fa">X</i></a>-->
     <div class="navbar-header">

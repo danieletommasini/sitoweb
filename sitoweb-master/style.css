@@ -10,6 +10,16 @@
 			top: 49px;
     		left: 468.500px;
     		display: block;
+		}
+    		  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 ;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  
 }
 		
 			
