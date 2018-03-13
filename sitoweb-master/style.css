@@ -4,4 +4,13 @@
 		  display: inline;
 		  
 		}
+	
+		.popover.fade.right.in {
+			position : absolute;
+			top: 49px;
+    		left: 468.500px;
+    		display: block;
+}
+		
+			
 		
