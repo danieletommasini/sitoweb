@@ -17,60 +17,6 @@
      <!-- GIOVANNI FALCONE <a href="#" class="btn btn-default" data-toggle="popover" data-placement="bottom" style="position: absolute; right: 2%; top: 1%;z-index:10;" data-content="Contentrtert">Login </a>-->
     <!--   <button class="btn btn-default" style="position: absolute; right: 2%; top: 1%;z-index:10;">Login</button>-->
 
-<button type="button" class="btn btn-success btn-lg" style="position: absolute; right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal">Login</button>
-
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Login/Registered</h4>
-      </div>
-      <div class="modal-body">
-        <p>
-          
-            <?php
-    session_start();
-    if(!isset($_SESSION["id"])){
-     echo "<form class='form' action='loginregister.php' method='post'> <br>
-<div class='input-group'>
-      <span class='input-group-addon'><i class='glyphicon glyphicon-user'></i></span>
-      
-      <input id='email' type='text' class='form-control' name='email' placeholder='Email'<!--INPUT-->
-    </div>
-    <div class='input-group'>
-      <span class='input-group-addon'><i class='glyphicon glyphicon-lock'></i></span>
-      
-      <input id='password' type='password' class='form-control' name='password' placeholder='Password'><!--INPUT-->
-    </div><br>
-		<input class='btn btn-primary btn-md' type='submit' name='register' value='SIGN IN' style='padding: 5px 16px; border-radius:5px;' > 
-		<input class='btn btn-primary btn-md' type='submit' name='login' value='LOG IN' style='padding: 5px 16px; border-radius:5px;' >
-</form>
-
-";
-    } else {
-      echo $_SESSION["id"] . " <form class='form' action='loginregister.php' method='post'>
-            <input type='submit' name='logout' value='LOGOUT'><br><br> 
-            </form>";
-    }
-  ?>
-  
-          </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-
-  </div>
-</div>
-<button type="button" class="btn btn-success btn-lg" style="position: absolute; right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal">Sing up</button>
-
-
-
 <script>
 $(document).ready(function(){
     $('[data-toggle="popover"]').popover();   
@@ -104,6 +50,88 @@ $(document).ready(function(){
 -->
 
     </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li>
+        <!--  <li><span  data-toggle="modal" data-target="#myModal" class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+        
+<span class="glyphicon glyphicon-log-in"><button type="button" class="btn btn-success btn-lg" style=" right: 8%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Login/Registered</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          
+            <?php
+    session_start();
+    if(!isset($_SESSION["id"])){
+     include "/home/ubuntu/workspace/sitoweb/sitoweb-master/login.php";
+    } else {
+      echo $_SESSION["id"] . " <form class='form' action='loginregister.php' method='post'>
+            <input type='submit' name='logout' value='LOGOUT'><br><br> 
+            </form>";
+    }
+  ?>
+  
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</li>
+<li>
+<!-- ___________________________________________________-->
+<button type="button" class="btn btn-success btn-lg" style=" right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#signin">Sing up</button>
+
+<!-- Modal -->
+<div id="signin" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">SignIn</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          
+            <?php
+    session_start();
+    if(!isset($_SESSION["id"])){
+    include"/home/ubuntu/workspace/sitoweb/sitoweb-master/signin.php";
+    } else {
+      echo $_SESSION["id"] . " <form class='form' action='loginregister.php' method='post'>
+            <input type='submit' name='logout' value='LOGOUT'><br><br> 
+            </form>";
+    }
+  ?>
+  
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</li>
+</ul>
+
   </div>
 </nav>
   
