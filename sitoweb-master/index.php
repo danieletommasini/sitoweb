@@ -2,6 +2,6 @@
 <html>
 <?php require("partials/toolbar.php");?>
 <body>
-    GGEASYYYY
+    GGEASYYYY ehehhe
 </body>
 </html>
