@@ -9,5 +9,7 @@
 <?php require("partials/toolbar.php");?>
 <body>
 </body>
+
 <?php require("partials/pager.php");?>
+
 </html>
