@@ -5,16 +5,27 @@
 		  
 		}
 	
+		  .modal-backdrop.fade.in{
+    z-index:-1;
+    
+  }
+	
 		.popover.fade.right.in {
 			position : absolute;
 			top: 49px;
     		left: 468.500px;
     		display: block;
 		}
-    		  .affix {
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  	
+  }
+ 
+  .affix {
       top: 0;
       width: 100%;
-     
+      z-index:9999;
   }
 
   .affix + .container-fluid {
