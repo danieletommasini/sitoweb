@@ -4,4 +4,5 @@
 <body>
    Arduino 
 </body>
+<?php require("partials/pager.php");?>
 </html>

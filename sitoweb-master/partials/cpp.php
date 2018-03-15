@@ -4,4 +4,5 @@
 <body>
     c++
 </body>
+<?php require("partials/pager.php");?>
 </html>

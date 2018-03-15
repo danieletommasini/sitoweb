@@ -4,4 +4,5 @@
 <body>
     java
 </body>
+<?php require("partials/pager.php");?>
 </html>

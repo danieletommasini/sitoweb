@@ -4,4 +4,5 @@
 <body>
     javascrypt 
 </body>
+<?php require("partials/pager.php");?>
 </html>
