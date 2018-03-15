@@ -27,28 +27,52 @@
     			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     			if(isset($_POST["register"])){
-    				$username = $_POST["username"];
-					$sql = $conn->prepare("SELECT email FROM users WHERE email LIKE '$username'");
+    				$email = $_POST["email"];
+					$sql = $conn->prepare("SELECT email FROM users WHERE email LIKE '$email'");
 					$sql->execute();
                 	$result = $sql->fetchAll();
 					
 					$i = 0;
-					while($i < count($result) && $_POST["username"] != $result[$i]["username"]){
+					while($i < count($result) && $_POST["email"] != $result[$i]["email"]){
 						$i++;	
 					}
 
 					if($i == count($result)){
-						$sql = $conn->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");
-                		$sql->bindParam(':username', $username);
-                		$sql->bindParam(':password', $password);
+						$username = $_POST["username"];
+						$sql = $conn->prepare("SELECT username FROM usernames WHERE username LIKE '$username'");
+						$sql->execute();
+                		$result = $sql->fetchAll();
+					
+						$j = 0;
+						while($j < count($result) && $_POST["username"] != $result[$j]["username"]){
+							$j++;	
+						}
+						if($j == count($result)){
+							$sql = $conn->prepare("INSERT INTO usernames (username) VALUES (:username)");
+                			$sql->bindParam(':username', $username);
 
-                		$username = $_POST["username"];
-                		$password = password_hash($_POST["password"], PASSWORD_DEFAULT);
-    					$sql->execute();
-    					echo "You have been successfully registered<br>";
-    					echo "<a href='index.php'>Do you want to login?</a>";
+                			$username = $_POST["username"];
+    						$sql->execute();
+							//username inserted
+							
+							
+							$sql = $conn->prepare("INSERT INTO users (email, password, username) VALUES (:email, :password, :username)");
+                			$sql->bindParam(':email', $email);
+                			$sql->bindParam(':password', $password);
+                			$sql->bindParam(':username', $username);
+
+                			$email = $_POST["email"];
+                			$password = password_hash($_POST["password"], PASSWORD_DEFAULT);
+    						$sql->execute();
+    						echo "You have been successfully registered<br>";
+    						echo "<a href='index.php'>Do you want to login?</a>";
+						} else {
+							alert ("Username already exist");
+							//reindirizzamento a index
+						}
     				} else {
-    					echo "Username already taken";
+    					alert ("Email already exist");
+    					//reindirizzamento a index
     				}
     			}
 
@@ -68,10 +92,12 @@
 							echo "Successfully logged in!<br>";
 							echo "<a href='index.php'>Do you want to return at the form page?</a>";
 						} else {
-							echo "Incorrect password!";
+							alert ("Incorrect password!");
+							//reindirizzamento a index
 						}
     				} else {
-    					echo "Username not valid!";
+    					alert ("Username not valid!");
+    					//reindirizzamento a index
     				}
 				}
 			} catch(PDOException $e) {
