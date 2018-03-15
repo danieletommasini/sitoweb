@@ -25,6 +25,10 @@ $(document).ready(function(){
 
 <style>
   
+  .modal-backdrop.fade.in{
+    z-index:-1;
+    
+  }
 
   .affix {
       top: 0;
