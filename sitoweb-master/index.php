@@ -1,81 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <div class="container-fluid" style="background-color:#F44336;color:#fff;height:100px;">
+ <!--  <div class="container-fluid" style="background-color:#F44336;color:#fff;height:100px;">
   <h1>W i pulcini</h1><br>
 <p>Helloooooooooooooo this is your blablablablabla</p>
 <h4>enjoy</h4>
 
-</div>
+</div>-->
 <?php require("partials/toolbar.php");?>
 <body>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-        SCROLLING <br>
-gg
+
 </body>
+
 </html>

@@ -7,6 +7,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="/home/ubuntu/workspace/sitoweb/sitoweb-master/style.css" rel="stylesheet" type="text/css">
+
   
   	
   </head>
@@ -25,6 +26,10 @@ $(document).ready(function(){
 
 <style>
   
+  .modal-backdrop.fade.in{
+    z-index:-1;
+    
+  }
 
   .affix {
       top: 0;
