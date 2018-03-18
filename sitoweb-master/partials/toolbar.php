@@ -134,7 +134,7 @@ echo "<div class='navbar-right' style='margin-right: 0px'>
 } else {
       echo "
       <div class='navbar-right' style='margin-right: 0px'>  
-        <ul class='nav nav-tabs'>
+        <ul class='nav navbar-nav'>
          <li class='dropdown'>
            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>" . $_SESSION["username"] . "<span class='caret'></span></a>
            <ul class='dropdown-menu'>
