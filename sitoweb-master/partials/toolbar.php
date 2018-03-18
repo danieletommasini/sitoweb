@@ -92,7 +92,7 @@ $(document).ready(function(){
     if(!isset($_SESSION["id"])){
      include "/home/ubuntu/workspace/sitoweb/sitoweb-master/login.php";
     } else {
-      echo $_SESSION["id"] . " <form class='form' action='loginregister.php' method='post'>
+      echo $_SESSION["id"] . " <form class='form' action='/home/ubuntu/workspace/sitoweb/sitoweb-master/loginregister.php' method='post'>
             <input type='submit' name='logout' value='LOGOUT'><br><br> 
             </form>";
     }
