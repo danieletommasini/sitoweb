@@ -136,7 +136,7 @@ echo "<div class='navbar-right' style='margin-right: 0px'>
       <div class='navbar-right' style='margin-right: 0px'>  
         <ul class='nav nav-tabs'>
          <li class='dropdown'>
-           <a class='dropdown-toggle' data-toggle='dropdown' href='#'>" . $_SESSION["id"] . "<span class='caret'></span></a>
+           <a class='dropdown-toggle' data-toggle='dropdown' href='#'>" . $_SESSION["username"] . "<span class='caret'></span></a>
            <ul class='dropdown-menu'>
               <li><a href='#'><form class='form' action='/sitoweb/sitoweb-master/loginregister.php' method='post'>
                   <input class='navbar-btn' type='submit' name='logout' value='LOGOUT'> 

@@ -76,6 +76,7 @@
 
     			if(isset($_POST["login"])){
     				$email = $_POST["email"];
+    				$username = $_POST["username"];
 					$sql = $conn->prepare("SELECT email, password FROM users WHERE email LIKE '$email'");
 					$sql->execute();
                 	$result = $sql->fetchAll();
@@ -86,7 +87,11 @@
 					}
 					if($i != count($result)){
 						if(password_verify($_POST["password"], $result[$i]["password"])){
+							$sql = $conn->prepare("SELECT usernames.username FROM usernames INNER JOIN users ON usernames.username = users.username WHERE users.email LIKE '$email'");
+							$sql->execute();
+                			$result = $sql->fetchAll();
 							$_SESSION["id"] = $email;
+							$_SESSION["username"] = $result[0]["username"];
 							echo "<script>history.go(-1);</script>";
 						} else {
 							echo "<script>alert ('Incorrect password!'); history.go(-1);</script>";
