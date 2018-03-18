@@ -47,6 +47,16 @@
 							$j++;	
 						}
 						if($j == count($result)){
+							/*
+							$to = $email;
+							$subject = "Confirm the email to register";
+							$txt = "Hello world!";
+							$headers = "From: webmaster@example.com" . "\r\n" .
+							"CC: somebodyelse@example.com";
+							*/
+
+							mail($to,$subject,$txt,$headers);
+							
 							$sql = $conn->prepare("INSERT INTO usernames (username) VALUES (:username)");
                 			$sql->bindParam(':username', $username);
 
@@ -64,7 +74,11 @@
                 			$password = password_hash($_POST["password"], PASSWORD_DEFAULT);
     						$sql->execute();
     						
+    						$_SESSION["id"] = $email;
+    						$_SESSION["username"] = $username;
+    						
     						echo "<script>alert ('You have been successfully registered!');  history.go(-1);</script>";
+    						
 							
 						} else {
 							echo "<script>alert ('Username already taken!');  history.go(-1);</script>";
