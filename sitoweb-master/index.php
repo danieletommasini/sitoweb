@@ -9,6 +9,4 @@
 <?php require("partials/toolbar.php");?>
 <body>
 </body>
-
-
 </html>

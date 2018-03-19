@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<form class="form" action="loginregister.php" method="post"> <br>
+<form class="form" action="/sitoweb/sitoweb-master/loginregister.php" method="post"> <br>
     <div class="input-group">
       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
       

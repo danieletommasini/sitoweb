@@ -6,8 +6,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="/sitoweb/sitoweb-master/style.css" rel="stylesheet" type="text/css">
 
-  <link href="../style.css" rel="stylesheet" type="text/css">
 
   
   	
@@ -69,38 +69,33 @@ $(document).ready(function(){
         </span>
       </div></li>
 -->
-
     </ul>
-<div class="navbar-right" style="margin-right: 0px">
-<button type="button" class="btn btn-success btn-lg navbar-btn" style=" right: 8%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-log-in"></span> Log In</button>
+<?php
+  session_start();
+  if(!isset($_SESSION["id"])){
+    
+echo "<div class='navbar-right' style='margin-right: 0px'>
+<button type='button' class='btn btn-success btn-lg navbar-btn' style=' right: 8%; top: 1%;z-index:10; padding: 3px 12px;' data-toggle='modal' data-target='#myModal'><span class='glyphicon glyphicon-log-in'></span> Log In</button>
 
 <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+<div id='myModal' class='modal fade' role='dialog'>
+  <div class='modal-dialog'>
 
     <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Log In</h4>
+    <div class='modal-content'>
+      <div class='modal-header'>
+        <button type='button' class='close' data-dismiss='modal'>&times;</button>
+        <h4 class='modal-title'>Log In</h4>
       </div>
-      <div class="modal-body">
+      <div class='modal-body'>";
       
-          
-  <?php
-    session_start();
-    if(!isset($_SESSION["id"])){
+   
      include "/home/ubuntu/workspace/sitoweb/sitoweb-master/login.php";
-    } else {
-      echo $_SESSION["id"] . " <form class='form' action='loginregister.php' method='post'>
-            <input type='submit' name='logout' value='LOGOUT'><br><br> 
-            </form>";
-    }
-  ?>
-  
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+    
+    echo "
+    </div>
+      <div class='modal-footer'>
+        <button type='button' class='btn btn-info' data-dismiss='modal'>Close</button>
       </div>
     </div>
 
@@ -109,43 +104,58 @@ $(document).ready(function(){
 
 <!-- ___________________________________________________-->
 
-<button type="button" class="btn btn-success btn-lg navbar-btn" style=" right: 1%; top: 1%;z-index:10; padding: 3px 12px;" data-toggle="modal" data-target="#signin"><span class="glyphicon glyphicon-user"></span> Sing In</button>
+<button type='button' class='btn btn-success btn-lg navbar-btn' style=' right: 1%; top: 1%;z-index:10; padding: 3px 12px;' data-toggle='modal' data-target='#signin'><span class='glyphicon glyphicon-user'></span> Sing In</button>
 
 <!-- Modal -->
-<div id="signin" class="modal fade" role="dialog">
-  <div class="modal-dialog">
+<div id='signin' class='modal fade' role='dialog'>
+  <div class='modal-dialog'>
 
     <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Sign In</h4>
+    <div class='modal-content'>
+      <div class='modal-header'>
+        <button type='button' class='close' data-dismiss='modal'>&times;</button>
+        <h4 class='modal-title'>Sign In</h4>
       </div>
-    <div class="modal-body">
-  <?php
-    session_start();
-    if(!isset($_SESSION["id"])){
+    <div class='modal-body'>";
+    
     include"/home/ubuntu/workspace/sitoweb/sitoweb-master/signin.php";
-    } else {
-      echo $_SESSION["id"] . " <form class='form' action='loginregister.php' method='post'>
-            <input type='submit' name='logout' value='LOGOUT'><br><br> 
-            </form>";
-    }
-  ?>
+    
+    echo " 
     </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+      <div class='modal-footer'>
+        <button type='button' class='btn btn-info' data-dismiss='modal'>Close</button>
       </div>
     </div>
 
   </div>
 </div>
 
-</div>
+</div>";
+} else {
+      echo "
+      <div class='navbar-right' style='margin-right: 0px'>  
+        <ul class='nav navbar-nav'>
+         <li class='dropdown'>
+           <a class='dropdown-toggle' data-toggle='dropdown' href='#'>" . $_SESSION["username"] . "<span class='caret'></span></a>
+           <ul class='dropdown-menu'>
+              <li><a href='#'><form class='form' action='/sitoweb/sitoweb-master/loginregister.php' method='post'>
+                  <input class='navbar-btn' type='submit' name='logout' value='LOGOUT'> 
+              </form></a></li>
+           </ul>
+          </li>
+        </ul>
+      </div>";
+}
+?>
 
 
 </div>
 </nav>
+
+  <!--<form class='form' action='/sitoweb/sitoweb-master/loginregister.php' method='post'>
+      <input class='navbar-btn' type='submit' name='logout' value='LOGOUT'><br><br> 
+  </form>-->
+
 
     </body>
 </html>

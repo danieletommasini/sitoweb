@@ -16,8 +16,7 @@
 		if(isset($_POST["logout"])){
     		session_unset();
     		session_destroy();
-    		echo "Successfully logged out!<br>";
-    		echo "<a href='index.php'>Do you want to login?</a>";
+    		echo "<script>history.go(-1);</script>";
     	}
 
 		if(array_key_exists('email', $_POST) && array_key_exists('password', $_POST)){
@@ -48,6 +47,17 @@
 							$j++;	
 						}
 						if($j == count($result)){
+
+							/*
+							$to = $email;
+							$subject = "Confirm the email to register";
+							$txt = "Hello world!";
+							$headers = "From: webmaster@example.com" . "\r\n" .
+							"CC: somebodyelse@example.com";
+							*/
+
+							mail($to,$subject,$txt,$headers);
+							
 							$sql = $conn->prepare("INSERT INTO usernames (username) VALUES (:username)");
                 			$sql->bindParam(':username', $username);
 
@@ -64,40 +74,48 @@
                 			$email = $_POST["email"];
                 			$password = password_hash($_POST["password"], PASSWORD_DEFAULT);
     						$sql->execute();
-    						echo "You have been successfully registered<br>";
-    						echo "<a href='index.php'>Do you want to login?</a>";
+    						
+    						$_SESSION["id"] = $email;
+    						$_SESSION["username"] = $username;
+    						
+    						echo "<script>alert ('You have been successfully registered!');  history.go(-1);</script>";
+    						
+							
 						} else {
-							alert ("Username already exist");
-							//reindirizzamento a index
+							echo "<script>alert ('Username already taken!');  history.go(-1);</script>";
 						}
     				} else {
-    					alert ("Email already exist");
-    					//reindirizzamento a index
+    					echo "<script>alert ('Email already exists!');  history.go(-1);</script>";
+
     				}
     			}
 
     			if(isset($_POST["login"])){
+    				$email = $_POST["email"];
     				$username = $_POST["username"];
-					$sql = $conn->prepare("SELECT username, password FROM users WHERE username LIKE '$username'");
+					$sql = $conn->prepare("SELECT email, password FROM users WHERE email LIKE '$email'");
 					$sql->execute();
                 	$result = $sql->fetchAll();
-
-    				$i = 0;
-					while($i < count($result) && $_POST["username"] != $result[$i]["username"]){
+					
+					$i = 0;
+					while($i < count($result) && $_POST["email"] != $result[$i]["email"]){
 						$i++;	
 					}
 					if($i != count($result)){
 						if(password_verify($_POST["password"], $result[$i]["password"])){
-							$_SESSION["id"] = $username;
-							echo "Successfully logged in!<br>";
-							echo "<a href='index.php'>Do you want to return at the form page?</a>";
+							$sql = $conn->prepare("SELECT usernames.username FROM usernames INNER JOIN users ON usernames.username = users.username WHERE users.email LIKE '$email'");
+							$sql->execute();
+                			$result = $sql->fetchAll();
+							$_SESSION["id"] = $email;
+							$_SESSION["username"] = $result[0]["username"];
+							echo "<script>history.go(-1);</script>";
 						} else {
-							alert ("Incorrect password!");
-							//reindirizzamento a index
+
+							echo "<script>alert ('Incorrect password!'); history.go(-1);</script>";
 						}
     				} else {
-    					alert ("Username not valid!");
-    					//reindirizzamento a index
+    					echo "<script>alert ('Username not valid!'); history.go(-1);</script>";
+
     				}
 				}
 			} catch(PDOException $e) {
