@@ -10,6 +10,5 @@
 <body>
 </body>
 
-<?php require("partials/pager.php");?>
 
 </html>
