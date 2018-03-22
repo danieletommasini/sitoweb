@@ -5,7 +5,7 @@
 		
 		public function addContent($newContent){
 			
-		array_push($this->content,$ newContent);
+		array_push($this->content,$newContent);
 		
 		}	
 	}
@@ -18,7 +18,9 @@
 		private $code;
 		private $arraycommenti =array();
 		
-		public function __construct veicoliManager($Title,$Description,$Code) { 
+		publicù
+		
+	59259269258969296+2589589595829589589895959898951621256256296n,$Code) { 
         this ->$title; 
         this ->$description;
 		this ->$code;
