@@ -46,35 +46,6 @@ coding to fix
 
 <!--   ______________________________________________________-->
 
-   <div class="col-sm-6" style="background-color:lavender; border-radius: 2%;z-index:-3;border-style:groove">
-    <h2>First example title </h2>
-      <p>Problem and description with data of push</p><br><br>
-      <p>
-coding to fix fbshdbfhfhdbdhbgvhdbhv<br>dbfhbdhb<br>
-  </p>
-  <!-- Left-aligned media object -->
-  <div class="media">
-    <div class="media-left">
-      <img src="img_avatar1.png" class="media-object" style="width:60px">
-    </div>
-    <div class="media-body">
-      <h4 class="media-heading">Left-aligned</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
-    </div>
-  </div>
-  <hr>
-  
-  <!-- Right-aligned media object -->
-  <div class="media">
-    <div class="media-body">
-      <h4 class="media-heading">Right-aligned</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="media-right">
-      <img src="img_avatar1.png" class="media-object" style="width:60px">
-    </div>
-  </div>
-</div>
 
 </body>
 <?php require("partials/pager.php");?>

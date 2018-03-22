@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-      <div style="bottom:3%;text-aling:center;" >
+      <div class="center-block; navbar-fixed-bottom" >
     
 <ul class="pager">
   <li><a href="#">Previous</a></li>
