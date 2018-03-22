@@ -60,6 +60,12 @@ $(document).ready(function(){
       <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/css.php">Css</a></li>
       <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/javascript.php">JavaScript</a></li>
       <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/php.php">Php</a></li>
+         <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
      <!-- <li>  <div class="input-group">
         <input type="text" class="form-control" placeholder="Search ..">
         <span class="input-group-btn">
