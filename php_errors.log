@@ -65,3 +65,39 @@
 [22-Mar-2018 11:08:31 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
 [22-Mar-2018 11:08:31 UTC] PHP Stack trace:
 [22-Mar-2018 11:08:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[22-Mar-2018 11:19:17 UTC] PHP Warning:  require(/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[22-Mar-2018 11:19:17 UTC] PHP Stack trace:
+[22-Mar-2018 11:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[22-Mar-2018 11:19:17 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[22-Mar-2018 11:19:17 UTC] PHP Stack trace:
+[22-Mar-2018 11:19:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[22-Mar-2018 11:40:39 UTC] PHP Warning:  require(/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[22-Mar-2018 11:40:39 UTC] PHP Stack trace:
+[22-Mar-2018 11:40:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[22-Mar-2018 11:40:39 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[22-Mar-2018 11:40:39 UTC] PHP Stack trace:
+[22-Mar-2018 11:40:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[22-Mar-2018 11:41:08 UTC] PHP Warning:  require(/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[22-Mar-2018 11:41:08 UTC] PHP Stack trace:
+[22-Mar-2018 11:41:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[22-Mar-2018 11:41:08 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[22-Mar-2018 11:41:08 UTC] PHP Stack trace:
+[22-Mar-2018 11:41:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[27-Mar-2018 06:22:24 UTC] PHP Warning:  require(/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[27-Mar-2018 06:22:24 UTC] PHP Stack trace:
+[27-Mar-2018 06:22:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[27-Mar-2018 06:22:24 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[27-Mar-2018 06:22:24 UTC] PHP Stack trace:
+[27-Mar-2018 06:22:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[27-Mar-2018 06:23:28 UTC] PHP Warning:  require(/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[27-Mar-2018 06:23:28 UTC] PHP Stack trace:
+[27-Mar-2018 06:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[27-Mar-2018 06:23:28 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[27-Mar-2018 06:23:28 UTC] PHP Stack trace:
+[27-Mar-2018 06:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[27-Mar-2018 06:23:31 UTC] PHP Warning:  require(/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[27-Mar-2018 06:23:31 UTC] PHP Stack trace:
+[27-Mar-2018 06:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[27-Mar-2018 06:23:31 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
+[27-Mar-2018 06:23:31 UTC] PHP Stack trace:
+[27-Mar-2018 06:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0

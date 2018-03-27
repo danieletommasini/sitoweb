@@ -48,5 +48,5 @@ coding to fix
 
 
 </body>
-<?php require("/sitoweb/sitoweb-master/partials/pager.php");?>
+<?php require("/home/ubuntu/workspace/sitoweb/sitoweb-master/partials/pager.php");?>
 </html>
