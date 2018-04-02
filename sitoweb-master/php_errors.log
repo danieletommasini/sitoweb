@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 [13-Mar-2018 08:03:31 UTC] PHP Warning:  include(signin.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 89
 [13-Mar-2018 08:03:31 UTC] PHP Stack trace:
 [13-Mar-2018 08:03:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/cpp.php:0
@@ -120,4 +119,3 @@
 [22-Mar-2018 11:09:40 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php on line 7
 [22-Mar-2018 11:09:40 UTC] PHP Stack trace:
 [22-Mar-2018 11:09:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:0
->>>>>>> c84440656d3745a6f5c0ac6b642bc6f11a167406
