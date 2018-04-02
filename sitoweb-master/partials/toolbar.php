@@ -140,13 +140,14 @@ echo "<div class='navbar-right' style='margin-right: 0px'>
 } else {
       echo "
       <div class='navbar-right' style='margin-right: 0px'>  
-        <ul class='nav navbar-nav'>
+        <ul class='nav navbar-nav'> 
          <li class='dropdown'>
            <a class='dropdown-toggle' data-toggle='dropdown' href='#'>" . $_SESSION["username"] . "<span class='caret'></span></a>
            <ul class='dropdown-menu'>
-              <li><a href='#'><form class='form' action='/sitoweb/sitoweb-master/loginregister.php' method='post'>
+              <li><a href='/sitoweb/sitoweb-master/account.php'><div style='text-align:center'>Options</div></a></li>
+              <li><div style='text-align:center'><form class='form' action='/sitoweb/sitoweb-master/loginregister.php' method='post'>
                   <input class='navbar-btn' type='submit' name='logout' value='LOGOUT'> 
-              </form></a></li>
+              </form></div></li>
            </ul>
           </li>
         </ul>

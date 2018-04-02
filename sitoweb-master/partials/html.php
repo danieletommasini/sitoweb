@@ -4,5 +4,5 @@
 <body>
     html
 </body>
-<?php require("partials/pager.php");?>
+<?php require("/home/ubuntu/workspace/sitoweb/sitoweb-master/partials/pager.php");?>
 </html>
