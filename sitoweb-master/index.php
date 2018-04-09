@@ -44,8 +44,6 @@ coding to fix
 
 
 
-<!--   ______________________________________________________-->
-
 
 </body>
 <?php require("/home/ubuntu/workspace/sitoweb/sitoweb-master/partials/pager.php");?>
