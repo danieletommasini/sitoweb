@@ -32,7 +32,7 @@ h1 {
    <form action="postinsert.php" id="f1" method="post">
   <div id="form">
     <h1>Scrivi qui per aggiungere il tuo post</h1>
-    <input style="display: none" type="text" name="category" value="cpp" />
+    <input style="display: none" type="text" name="category" value="arduino" />
     <label for="title">title</label><input type="text" class="form-control" name="title" id="title" /><br>
     <label for="desc">descfgn</label><input type="text" class="form-control" name="desc" id="desc" /><br>
     <label for="content">Messaggio</label><br>

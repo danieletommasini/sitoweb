@@ -1,8 +1,10 @@
 <?php
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "forum";
+$email = $_SESSION["id"];
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -13,12 +15,16 @@ try {
     $title = $_POST["title"];
     $desc = $_POST["desc"];
     $content = $_POST["textarea"];
-    echo $category;
+    echo $email;
     
-    $sql = $conn->prepare("INSERT INTO post (email, password, username) VALUES (:email, :password, :username)");
+    $sql = $conn->prepare("INSERT INTO post (category, email, title, description, content) VALUES (:category, :email, :title, :description, :content)");
+    $sql->bindParam(':category', $category);
     $sql->bindParam(':email', $email);
-    $sql->bindParam(':password', $password);
-    $sql->bindParam(':username', $username);
+    $sql->bindParam(':title', $title);
+    $sql->bindParam(':description', $desc);
+    $sql->bindParam(':content', $content);
+    
+    $sql->execute();
     }
 catch(PDOException $e)
     {
