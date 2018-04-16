@@ -37,7 +37,7 @@ h1 {
     <label for="content">Messaggio</label><br>
     <textarea name="messaggio" id="messaggio" class="form-control" cols="30" rows="10"></textarea>
  
-    <input type="submit" id="submit" class="btn btn-default" name="submit" value="Invia" onclick="push()"/>
+    <input type="submit" id="submit" class="btn btn-default" name="submit" value="Invia"/>
   </div>
 
 <?php
@@ -48,5 +48,5 @@ h1 {
    
 
 </body>
-<?php require("/home/ubuntu/workspace/sitoweb/sitoweb-master/partials/pager.php");?>
+<?php require("/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php");?>
 </html>
