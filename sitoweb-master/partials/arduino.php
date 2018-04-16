@@ -11,9 +11,9 @@
 }
  
 #form {
+    background: #5f5f5f;
     width: 500px;
     margin: 50px auto;
-    background: #222;
     padding: 25px;
     overflow: hidden;
  
@@ -23,15 +23,17 @@
 }
  
 h1 {
+    font-family: Verdana, sans-serif;
     font-size: 16px;
-    color: #FCCC69;
+    color: #ff7070;
     margin-bottom: 20px;
 }
+
   </style>
   
    <form action="#">
   <div id="form">
-    <h1>Scrivi qui per aggiungere il tuo post</h1>
+    <h1>SCRIVI QUI IL TUO POST</h1>
     <label for="title">title</label><input type="text" class="form-control" name="title" id="title" /><br>
      <label for="desc">descfgn</label><input type="text" class="form-control" name="desc" id="desc" /><br>
     <label for="content">Messaggio</label><br>
@@ -48,7 +50,9 @@ h1 {
 ?>
 
 </form>
-   
+   <script language=”javascript” src=”liveclock.js”></script> <body onLoad=”show_clock()”>
+
+
 
 </body>
 <?php require("/home/ubuntu/workspace/sitoweb/sitoweb-master/partials/pager.php");?>
