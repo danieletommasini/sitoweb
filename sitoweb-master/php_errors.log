@@ -119,3 +119,207 @@
 [22-Mar-2018 11:09:40 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php on line 7
 [22-Mar-2018 11:09:40 UTC] PHP Stack trace:
 [22-Mar-2018 11:09:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/css.php:0
+[16-Apr-2018 06:49:26 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 51
+[16-Apr-2018 06:49:26 UTC] PHP Stack trace:
+[16-Apr-2018 06:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:49:26 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 51
+[16-Apr-2018 06:49:26 UTC] PHP Stack trace:
+[16-Apr-2018 06:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:58:31 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 06:58:31 UTC] PHP Stack trace:
+[16-Apr-2018 06:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:58:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 06:58:31 UTC] PHP Stack trace:
+[16-Apr-2018 06:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:58:36 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 06:58:36 UTC] PHP Stack trace:
+[16-Apr-2018 06:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:58:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 06:58:36 UTC] PHP Stack trace:
+[16-Apr-2018 06:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:03:47 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:03:47 UTC] PHP Stack trace:
+[16-Apr-2018 07:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:03:47 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:03:47 UTC] PHP Stack trace:
+[16-Apr-2018 07:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:03:50 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:03:50 UTC] PHP Stack trace:
+[16-Apr-2018 07:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:03:50 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:03:50 UTC] PHP Stack trace:
+[16-Apr-2018 07:03:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:03:58 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:03:58 UTC] PHP Stack trace:
+[16-Apr-2018 07:03:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:03:58 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:03:58 UTC] PHP Stack trace:
+[16-Apr-2018 07:03:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:04:07 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:04:07 UTC] PHP Stack trace:
+[16-Apr-2018 07:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:04:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:04:07 UTC] PHP Stack trace:
+[16-Apr-2018 07:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:04:13 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:04:13 UTC] PHP Stack trace:
+[16-Apr-2018 07:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:04:13 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:04:13 UTC] PHP Stack trace:
+[16-Apr-2018 07:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:08 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:08 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:08 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:13 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:13 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:13 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:13 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:48 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:48 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:48 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:48 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:54 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:54 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:54 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:54 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:54 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:54 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:55 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:55 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:55 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:55 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:55 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:55 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:05:55 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:05:55 UTC] PHP Stack trace:
+[16-Apr-2018 07:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:02 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:02 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:02 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:02 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:03 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:03 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:03 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:03 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:04 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:04 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:04 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:04 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:04 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:04 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:04 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:04 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:04 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:04 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:04 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:04 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:10 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:10 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:07:10 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:07:10 UTC] PHP Stack trace:
+[16-Apr-2018 07:07:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:08:38 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:08:38 UTC] PHP Stack trace:
+[16-Apr-2018 07:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:08:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:08:38 UTC] PHP Stack trace:
+[16-Apr-2018 07:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:08:38 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:08:38 UTC] PHP Stack trace:
+[16-Apr-2018 07:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:08:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:08:38 UTC] PHP Stack trace:
+[16-Apr-2018 07:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:08:38 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:08:38 UTC] PHP Stack trace:
+[16-Apr-2018 07:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:08:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:08:38 UTC] PHP Stack trace:
+[16-Apr-2018 07:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:08:45 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:08:45 UTC] PHP Stack trace:
+[16-Apr-2018 07:08:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:08:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:08:45 UTC] PHP Stack trace:
+[16-Apr-2018 07:08:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:09:36 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:09:36 UTC] PHP Stack trace:
+[16-Apr-2018 07:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:09:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:09:36 UTC] PHP Stack trace:
+[16-Apr-2018 07:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:09:36 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:09:36 UTC] PHP Stack trace:
+[16-Apr-2018 07:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:09:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:09:36 UTC] PHP Stack trace:
+[16-Apr-2018 07:09:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:09:47 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:09:47 UTC] PHP Stack trace:
+[16-Apr-2018 07:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:09:47 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 07:09:47 UTC] PHP Stack trace:
+[16-Apr-2018 07:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:16:40 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:16:40 UTC] PHP Stack trace:
+[16-Apr-2018 07:16:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:16:40 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:16:40 UTC] PHP Stack trace:
+[16-Apr-2018 07:16:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:16:42 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:16:42 UTC] PHP Stack trace:
+[16-Apr-2018 07:16:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:16:42 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:16:42 UTC] PHP Stack trace:
+[16-Apr-2018 07:16:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:17:27 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:17:27 UTC] PHP Stack trace:
+[16-Apr-2018 07:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:17:27 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:17:27 UTC] PHP Stack trace:
+[16-Apr-2018 07:17:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:18:56 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:18:56 UTC] PHP Stack trace:
+[16-Apr-2018 07:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:18:56 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:18:56 UTC] PHP Stack trace:
+[16-Apr-2018 07:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:18:56 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:18:56 UTC] PHP Stack trace:
+[16-Apr-2018 07:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:18:56 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:18:56 UTC] PHP Stack trace:
+[16-Apr-2018 07:18:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:19:05 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:19:05 UTC] PHP Stack trace:
+[16-Apr-2018 07:19:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 07:19:05 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 55
+[16-Apr-2018 07:19:05 UTC] PHP Stack trace:
+[16-Apr-2018 07:19:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0

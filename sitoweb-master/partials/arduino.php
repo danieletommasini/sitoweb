@@ -31,15 +31,17 @@ h1 {
 
   </style>
   
-   <form action="#">
+   <form action="postinsert.php" id="f1" method="post">
   <div id="form">
-    <h1>SCRIVI QUI IL TUO POST</h1>
+
+    <h1>Scrivi qui per aggiungere il tuo post</h1>
+    <input style="display: none" type="text" name="category" value="cpp" />
     <label for="title">title</label><input type="text" class="form-control" name="title" id="title" /><br>
-     <label for="desc">descfgn</label><input type="text" class="form-control" name="desc" id="desc" /><br>
+    <label for="desc">descfgn</label><input type="text" class="form-control" name="desc" id="desc" /><br>
     <label for="content">Messaggio</label><br>
-  <textarea  name="messaggio" id="messaggio" class="form-control" cols="30" rows="10">write here ...</textarea>
+    <textarea  name="textarea" id="msg" form="f1" class="form-control" cols="30" rows="10">write here ...</textarea>
  
-    <input type="submit" id="submit" class="btn btn-default" name="submit" value="Invia" onclick="push()"/>
+    <input type="submit" id="submit" class="btn btn-default" name="submit" value="Invia"/>
   </div>
 
 <?php
@@ -55,5 +57,5 @@ h1 {
 
 
 </body>
-<?php require("/home/ubuntu/workspace/sitoweb/sitoweb-master/partials/pager.php");?>
+<?php require("/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php");?>
 </html>
