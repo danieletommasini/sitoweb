@@ -125,3 +125,15 @@
 [16-Apr-2018 06:49:26 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 51
 [16-Apr-2018 06:49:26 UTC] PHP Stack trace:
 [16-Apr-2018 06:49:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:58:31 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 06:58:31 UTC] PHP Stack trace:
+[16-Apr-2018 06:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:58:31 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 06:58:31 UTC] PHP Stack trace:
+[16-Apr-2018 06:58:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:58:36 UTC] PHP Warning:  require(/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 06:58:36 UTC] PHP Stack trace:
+[16-Apr-2018 06:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[16-Apr-2018 06:58:36 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[16-Apr-2018 06:58:36 UTC] PHP Stack trace:
+[16-Apr-2018 06:58:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
