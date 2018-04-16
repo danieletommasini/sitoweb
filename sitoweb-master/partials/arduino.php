@@ -35,7 +35,7 @@ h1 {
     <label for="title">title</label><input type="text" class="form-control" name="title" id="title" /><br>
      <label for="desc">descfgn</label><input type="text" class="form-control" name="desc" id="desc" /><br>
     <label for="content">Messaggio</label><br>
-  <input style="height:170px" name="messaggio" id="messaggio" class="form-control" cols="30" rows="10"/>
+  <textarea  name="messaggio" id="messaggio" class="form-control" cols="30" rows="10">write here ...</textarea>
  
     <input type="submit" id="submit" class="btn btn-default" name="submit" value="Invia" onclick="push()"/>
   </div>
