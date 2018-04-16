@@ -29,10 +29,11 @@ h1 {
     margin-bottom: 20px;
 }
 
+
   </style>
   
    <form action="postinsert.php" id="f1" method="post">
-  <div id="form">
+    <div id="form">
 
     <h1>Scrivi qui per aggiungere il tuo post</h1>
     <input style="display: none" type="text" name="category" value="arduino" />
