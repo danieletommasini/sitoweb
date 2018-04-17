@@ -353,3 +353,113 @@
 [17-Apr-2018 06:11:03 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 61
 [17-Apr-2018 06:11:03 UTC] PHP Stack trace:
 [17-Apr-2018 06:11:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 06:48:53 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:112) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 113
+[17-Apr-2018 06:48:53 UTC] PHP Stack trace:
+[17-Apr-2018 06:48:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 06:48:53 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 06:48:53 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:113
+[17-Apr-2018 06:55:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:101) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 102
+[17-Apr-2018 06:55:14 UTC] PHP Stack trace:
+[17-Apr-2018 06:55:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 06:55:14 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 06:55:14 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:102
+[17-Apr-2018 06:59:51 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:101) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 102
+[17-Apr-2018 06:59:51 UTC] PHP Stack trace:
+[17-Apr-2018 06:59:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 06:59:51 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 06:59:51 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:102
+[17-Apr-2018 07:03:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:105) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 106
+[17-Apr-2018 07:03:08 UTC] PHP Stack trace:
+[17-Apr-2018 07:03:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:03:08 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:03:08 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:106
+[17-Apr-2018 07:04:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:105) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 106
+[17-Apr-2018 07:04:47 UTC] PHP Stack trace:
+[17-Apr-2018 07:04:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:04:47 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:04:47 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:106
+[17-Apr-2018 07:15:15 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:107) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 108
+[17-Apr-2018 07:15:15 UTC] PHP Stack trace:
+[17-Apr-2018 07:15:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:15:15 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:15:15 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108
+[17-Apr-2018 07:16:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:107) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 108
+[17-Apr-2018 07:16:16 UTC] PHP Stack trace:
+[17-Apr-2018 07:16:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:16:16 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:16:16 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108
+[17-Apr-2018 07:16:56 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:107) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 108
+[17-Apr-2018 07:16:56 UTC] PHP Stack trace:
+[17-Apr-2018 07:16:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:16:56 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:16:56 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108
+[17-Apr-2018 07:18:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:107) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 108
+[17-Apr-2018 07:18:47 UTC] PHP Stack trace:
+[17-Apr-2018 07:18:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:18:47 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:18:47 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108
+[17-Apr-2018 07:21:04 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:21:04 UTC] PHP Stack trace:
+[17-Apr-2018 07:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:21:04 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:21:04 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[17-Apr-2018 07:22:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:22:10 UTC] PHP Stack trace:
+[17-Apr-2018 07:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:22:10 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:22:10 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[17-Apr-2018 07:23:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:23:22 UTC] PHP Stack trace:
+[17-Apr-2018 07:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:23:22 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:23:22 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[17-Apr-2018 07:27:54 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:151) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 152
+[17-Apr-2018 07:27:54 UTC] PHP Stack trace:
+[17-Apr-2018 07:27:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:27:54 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:27:54 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:152
+[17-Apr-2018 07:28:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:151) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 152
+[17-Apr-2018 07:28:34 UTC] PHP Stack trace:
+[17-Apr-2018 07:28:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:28:34 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:28:34 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:152
+[17-Apr-2018 07:28:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:114) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 115
+[17-Apr-2018 07:28:41 UTC] PHP Stack trace:
+[17-Apr-2018 07:28:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:28:41 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:28:41 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:115
+[17-Apr-2018 07:29:03 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:29:03 UTC] PHP Stack trace:
+[17-Apr-2018 07:29:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:29:03 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:29:03 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[17-Apr-2018 07:37:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:37:28 UTC] PHP Stack trace:
+[17-Apr-2018 07:37:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:37:28 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:37:28 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[17-Apr-2018 07:38:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:38:34 UTC] PHP Stack trace:
+[17-Apr-2018 07:38:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:38:34 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:38:34 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[17-Apr-2018 07:38:55 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:38:55 UTC] PHP Stack trace:
+[17-Apr-2018 07:38:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:38:55 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:38:55 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[17-Apr-2018 07:39:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 110
+[17-Apr-2018 07:39:34 UTC] PHP Stack trace:
+[17-Apr-2018 07:39:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:39:34 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:39:34 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:110
+[17-Apr-2018 07:40:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:40:33 UTC] PHP Stack trace:
+[17-Apr-2018 07:40:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:40:33 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:40:33 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[17-Apr-2018 07:42:51 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:42:51 UTC] PHP Stack trace:
+[17-Apr-2018 07:42:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
+[17-Apr-2018 07:42:51 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
+[17-Apr-2018 07:42:51 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109

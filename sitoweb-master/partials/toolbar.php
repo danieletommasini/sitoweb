@@ -46,13 +46,14 @@ $(document).ready(function(){
 
 
         
-<nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" data-offset-top="197" style="z-index: unset;position:sticky">
+<nav class="navbar navbar-inverse navbar-static-top " data-spy="affix" data-offset-top="197" style="z-index: unset;position:sticky">
   <div class="container-fluid">
 <!--    <a class="w3-bar-item w3-button w3-hover-white w3-padding-16 hidesm" href="javascript:void(0)" onclick="w3_open()"><i class="fa">X</i></a>-->
     <div class="navbar-header">
-   <a class="navbar-brand" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/"><p style="font-family:Impact, Charcoal, sans-serif">Scs</p></a>
+    <a class="navbar-brand" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/"><p style="font-family:Impact, Charcoal, sans-serif">Scs</p></a>
+
     </div>
-    <ul class="nav navbar-nav">
+    <ul id="content1" class="nav navbar-nav" >
       <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/arduino.php">Arduino</a></li>
       <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/cpp.php">C/C++</a></li>
       <li><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/java.php">Java</a></li>
@@ -74,8 +75,17 @@ $(document).ready(function(){
           </button>
         </span>
       </div></li>
+
+     <button type="button" class="btn btn-default btn-sm navbar-brand" style="background-color:#9d9d9d00" >
+          <span class="glyphicon glyphicon-list"></span> 
+        </button>
 -->
     </ul>
+
+    
+    
+    
+    
 <?php
   session_start();
   if(!isset($_SESSION["id"])){
@@ -156,8 +166,23 @@ echo "<div class='navbar-right' style='margin-right: 0px'>
 ?>
 
 
+
+
+
+
+
 </div>
 </nav>
+
+<!--
+<script>
+  if(screen.height>900){
+    getElementById("nav-bar1")
+  }
+  
+  
+</script>-->
+
 
   <!--<form class='form' action='/sitoweb/sitoweb-master/loginregister.php' method='post'>
       <input class='navbar-btn' type='submit' name='logout' value='LOGOUT'><br><br> 
