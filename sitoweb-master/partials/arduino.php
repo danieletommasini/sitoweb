@@ -12,7 +12,7 @@
  
 #form {
     background: #5f5f5f;
-    width: 500px;
+    width:90%;
     margin: 50px auto;
     padding: 25px;
     overflow: hidden;
@@ -58,5 +58,4 @@ h1 {
 
 
 </body>
-<?php require("/home/ubuntu/wor/sitoweb/sitoweb-master/partials/pager.php");?>
 </html>
