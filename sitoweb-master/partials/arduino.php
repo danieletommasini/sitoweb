@@ -28,6 +28,20 @@ h1 {
     
   </style>
 <body>
+<!--_________________________________________________________________________________________________________________________________________________________________________________________-->
+
+<div class="container">
+  <h2>List of Post</h2>
+  <div class="panel panel-default">
+    <div class="panel-heading">Panelhhjhjh Heading</div>
+    <div id="id post"class="panel-body"><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">Titolo1</a>/n byutente</div>
+  </div>
+</div>
+<!--_________________________________________________________________________________________________________________________________________________________________________________________-->
+
+
+
+
 <?php
 
 
@@ -44,7 +58,7 @@ h1 {
             <label for='desc'>Description</label><input type='text' class='form-control' name='desc' id='desc' /><br>
             <label for='content'>Message</label><br>
             <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10'>Type here ...</textarea>
- 
+            <br>
             <input type='submit' id='submit' class='btn btn-default' name='submit' value='Invia'/>
             </div>
         </form>";
@@ -52,7 +66,7 @@ h1 {
 ?>
 
 </form>
-   <script language=”javascript” src=”liveclock.js”></script> <body onLoad=”show_clock()”>
+   <script language=”javascript” src=”liveclock.js”></script> <body onLoad=”show_clock()”></script>
 
 
 

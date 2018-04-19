@@ -101,3 +101,8 @@
 [27-Mar-2018 06:23:31 UTC] PHP Fatal error:  require(): Failed opening required '/sitoweb/sitoweb-master/partials/pager.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php on line 51
 [27-Mar-2018 06:23:31 UTC] PHP Stack trace:
 [27-Mar-2018 06:23:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[17-Apr-2018 07:48:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:108) in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php on line 109
+[17-Apr-2018 07:48:22 UTC] PHP Stack trace:
+[17-Apr-2018 07:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:0
+[17-Apr-2018 07:48:22 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/index.php:6
+[17-Apr-2018 07:48:22 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109

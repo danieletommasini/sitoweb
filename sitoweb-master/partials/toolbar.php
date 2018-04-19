@@ -156,7 +156,7 @@ echo "<div class='navbar-right' style='margin-right: 0px'>
            <ul class='dropdown-menu'>
               <li><a href='/sitoweb/sitoweb-master/account.php'><div style='text-align:center'>Settings</div></a></li>
               <li><div style='text-align:center'><form class='form' action='/sitoweb/sitoweb-master/loginregister.php' method='post'>
-                  <input class='navbar-btn' type='submit' name='logout' value='LOGOUT'> 
+                  <input class='btn btn-primary' type='submit' name='logout' value='LOGOUT'> 
               </form></div></li>
            </ul>
           </li>
