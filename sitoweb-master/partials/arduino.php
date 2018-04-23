@@ -43,7 +43,7 @@ h1 {
    				$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     			// set the PDO error mode to exception
     			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                $sql = $conn->prepare("SELECT post.title, usernames.username FROM `post`
+                $sql = $conn->prepare("SELECT post.id_post, post.title, usernames.username FROM `post`
                                        INNER JOIN users ON post.email = users.email
                                        INNER JOIN usernames ON users.username = usernames.username
                                        WHERE post.category LIKE 'arduino'
@@ -51,7 +51,7 @@ h1 {
 				$sql->execute();
                 $result = $sql->fetchAll();
                 for($i=0; $i < count($result); $i++){
-                    echo '<div id="id post"class="panel-body"><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">' . $result[$i]["title"] . '</a> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
+                    echo '<div class="panel-body"><a id="id_post*" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">' . $result[$i]["title"] . '</a> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
                 }
         } catch(PDOException $e) {
     		echo "Connection failed: " . $e->getMessage();
