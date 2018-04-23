@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php require("toolbar.php");?>
+<?php require("toolbar.php");session_start();?>
 
   <style>
 body {
@@ -33,8 +33,31 @@ h1 {
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-heading">Panelhhjhjh Heading</div>
-    <div id="id post"class="panel-body"><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">Titolo1</a>/n byutente</div>
+    <?php
+        $servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "forum";
+        
+        try {
+   				$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    			// set the PDO error mode to exception
+    			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $sql = $conn->prepare("SELECT post.title, usernames.username FROM `post`
+                                       INNER JOIN users ON post.email = users.email
+                                       INNER JOIN usernames ON users.username = usernames.username
+                                       WHERE post.category LIKE 'arduino'
+                                       GROUP BY post.id_post DESC");
+				$sql->execute();
+                $result = $sql->fetchAll();
+                for($i=0; $i < count($result); $i++){
+                    echo '<div id="id post"class="panel-body"><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">' . $result[$i]["title"] . '</a> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
+                }
+        } catch(PDOException $e) {
+    		echo "Connection failed: " . $e->getMessage();
+        }
     
+    ?>
   </div>
 </div>
 <!--_________________________________________________________________________________________________________________________________________________________________________________________-->
@@ -43,9 +66,6 @@ h1 {
 
 
 <?php
-
-
-    session_start();
 
     if(isset($_SESSION["id"])){
         echo

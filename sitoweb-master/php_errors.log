@@ -463,3 +463,5 @@
 [17-Apr-2018 07:42:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:0
 [17-Apr-2018 07:42:51 UTC] PHP   2. require() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php:3
 [17-Apr-2018 07:42:51 UTC] PHP   3. session_start() /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/toolbar.php:109
+[23-Apr-2018 07:15:35 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 53
+[23-Apr-2018 07:16:18 UTC] PHP Parse error:  syntax error, unexpected ''</div>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
