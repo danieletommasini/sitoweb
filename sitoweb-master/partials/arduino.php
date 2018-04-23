@@ -31,10 +31,10 @@ h1 {
 <!--_________________________________________________________________________________________________________________________________________________________________________________________-->
 
 <div class="container">
-  <h2>List of Post</h2>
   <div class="panel panel-default">
     <div class="panel-heading">Panelhhjhjh Heading</div>
     <div id="id post"class="panel-body"><a href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">Titolo1</a>/n byutente</div>
+    
   </div>
 </div>
 <!--_________________________________________________________________________________________________________________________________________________________________________________________-->
