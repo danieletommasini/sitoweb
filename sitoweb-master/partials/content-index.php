@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
       <body>
-     <div  style="background-color:#d34b41;color:#fff;margin-left:1%;margin-right:1%;">
+     <div  style="background-color:#d34b41;color:#fff;">
     <br><div style="margin-left:1%;margin-right=50%">
        <!--  <img src="/sitoweb/sitoweb-master/image/error.jpg" style="margin-left:75%;" height="200" width="200">-->
         <h1>Problemi col tuo codice???</h1><br>
@@ -9,17 +9,17 @@
    <br>
     <h4>Condividilo cosicchè chiunque più o meno esperto di te può aiutarti a trovare il tuo errore e sistemare, migliorare , il tuo codice.</h4><br>
     </div></div>
-       <div style="background-color:#6265e8;color:#fff;margin-left:1%;margin-right:1%;">
+       <div style="background-color:#6265e8;color:#fff;">
     <br><div style="margin-left:1%;margin-right=1%"><h1 >Perchè condividere il tuo codice???</h1><br>
     <p>La condivisione non di basa solo sul cercare aiuto ma anche nella prevenzione.</p><br>
     <h4>Il tuo codice può essere sempre migliorato ma nel caso non potesse è una risorsa che potra servire a tutti.</h4><br>
   </div></div>
-       <div style="background-color:#50bc54;color:#fff;margin-left:1%;margin-right:1%;">
+       <div style="background-color:#50bc54;color:#fff;">
   <div style="margin-left:1%;margin-right=1%"><br><h1>Perchè fare il lavoro degli altri???</h1><br>
     <p>Non ha senso fare nulla gratis ma come il 99% delle risorse open source la condivisione è fondamentale</p><br>
     <h4>Correggere e migliorare del codice che potra servire non solo all'utente che richiede aiuto ma anche a chiunque in futuro necessitare a infinite persone, pure a te.</h4><br>
 </div></div>
-       <div style="background-color:#a171b8;color:#fff;margin-left:1%;margin-right:1%;">
+       <div style="background-color:#a171b8;color:#fff;">
     <br><div style="margin-left:1%;margin-right=1%"><h1>Per tutti???</h1><br>
 <p>Che sia un programma per l'universita, per la scuola o per lavoro perche non dovresti poter chiuedere aiuto? Imparando magari qualcosa?</p><br>
 <h4>Chi te lo vieta? Noi di certo no :) Il primo passo è il login </h4><br>
