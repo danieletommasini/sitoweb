@@ -51,7 +51,9 @@ h1 {
 				$sql->execute();
                 $result = $sql->fetchAll();
                 for($i=0; $i < count($result); $i++){
-                    echo '<div class="panel-body"><a id="id_post*" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">' . $result[$i]["title"] . '</a> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
+                    echo '<div class="panel-body"><a id="' . $result[$i]["id_post"] . '" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">' . $result[$i]["title"] . '</a> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
+                    $id_post = $result[$i]["id_post"];
+                    $_SESSION["$id_post"] = $id_post;
                 }
         } catch(PDOException $e) {
     		echo "Connection failed: " . $e->getMessage();
