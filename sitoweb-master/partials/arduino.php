@@ -28,11 +28,19 @@ h1 {
     
   </style>
 <body>
+<<<<<<< HEAD
     <div class="container">
     <div class="panel panel-default">
     <div class="panel-heading">List Of Posts</div>
     <form class="form" action="post.php"  method="POST">
     
+=======
+<!--_________________________________________________________________________________________________________________________________________________________________________________________-->
+
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">List Of Posts</div>
+>>>>>>> bd6e48d1c691b1a31073638bd23956ad945728dc
     <?php
         $servername = "localhost";
 		$username = "root";
