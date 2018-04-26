@@ -30,9 +30,10 @@ h1 {
 <body>
 <!--_________________________________________________________________________________________________________________________________________________________________________________________-->
 
-<div class="container">
-  <div class="panel panel-default">
-    <div class="panel-heading">Panelhhjhjh Heading</div>
+    <div class="container">
+    <div class="panel panel-default">
+    <div class="panel-heading">List Of Posts</div>
+    <form class="form" action="post.php"  method="POST">
     <?php
         $servername = "localhost";
 		$username = "root";
@@ -51,7 +52,7 @@ h1 {
 				$sql->execute();
                 $result = $sql->fetchAll();
                 for($i=0; $i < count($result); $i++){
-                    echo '<div class="panel-body"><a id="' . $result[$i]["id_post"] . '" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/post.php">' . $result[$i]["title"] . '</a> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
+                    echo '<div class="panel-body"><input class="btn" id="' . $result[$i]["id_post"] . '" value="' . $result[$i]["title"] . '" name="' . $result[$i]["id_post"] . '" type="submit"> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
                     $id_post = $result[$i]["id_post"];
                     $_SESSION["$id_post"] = $id_post;
                 }
@@ -60,6 +61,7 @@ h1 {
         }
     
     ?>
+    </form>
   </div>
 </div>
 <!--_________________________________________________________________________________________________________________________________________________________________________________________-->

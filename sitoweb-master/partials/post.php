@@ -28,7 +28,10 @@ h1 {
     
   </style>
 <body>
-
+<?php print_r($_POST);
+       
+    
+    ?>
 
         <form action='postinsert.php' id='f1' method='post'>
             <div id='form'>
