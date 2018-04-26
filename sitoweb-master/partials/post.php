@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<?php require("toolbar.php");session_start();?>
+<?php
+    require("toolbar.php");
+    session_start();
+?>
 
   <style>
 body {
@@ -28,23 +31,46 @@ h1 {
     
   </style>
 <body>
-<?php print_r($_POST);
-       
     
+    <?php 
+        $id_post = 0;
+        foreach ($_POST as $id => $title) {
+            $id_post = $id;
+        }
+       
+        $servername = "localhost";
+	    $username = "root";
+	    $password = "";
+        $dbname = "forum";
+        
+        try {
+   				$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    			// set the PDO error mode to exception
+    			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $sql = $conn->prepare("SELECT post.title, post.description, post.content FROM `post`
+                                       WHERE post.id_post LIKE '$id_post'");
+				$sql->execute();
+                $result = $sql->fetchAll();
+                
+                $title = htmlentities($result[0]["title"]);
+                $description = htmlentities($result[0]["description"]);
+                $content = htmlentities($result[0]["content"]);
+        } catch(PDOException $e) {
+    		echo "Connection failed: " . $e->getMessage();
+        }
     ?>
 
-        <form action='postinsert.php' id='f1' method='post'>
-            <div id='form'>
-
+    <form action='postinsert.php' id='f1' method='post'>
+        <div id='form'>
             
-            <h2>Title</h2><br>
-            <i>descriptione</i><br><br>
-            <p>content<p>
-            <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10'>Type here ...</textarea>
-            <br>
-            <input type='submit' id='submit' class='btn btn-default' name='submit' value='ADD COMMIT'/>
-            </div>
-        </form>
+        <h2><?php echo "$title"; ?></h2><br>
+        <i><?php echo "$description"; ?></i><br><br>
+        <p><?php echo "$content"; ?><p>
+        <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10'>Type here ...</textarea>
+        <br>
+        <input type='submit' id='submit' class='btn btn-default' name='submit' value='ADD COMMIT'/>
+        </div>
+    </form>
 
 </body>
 </html>
