@@ -66,9 +66,15 @@ h1 {
         <h2><?php echo "$title"; ?></h2><br>
         <i><?php echo "$description"; ?></i><br><br>
         <p><?php echo "$content"; ?><p>
-        <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10'>Type here ...</textarea>
-        <br>
-        <input type='submit' id='submit' class='btn btn-default' name='submit' value='ADD COMMIT'/>
+        <?php
+        
+        if(isset($_SESSION["id"])){
+            echo "<textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Type here...'></textarea>
+            <br>
+            <input type='submit' id='submit' class='btn btn-default' name='submit' value='ADD COMMENT'/>";
+        }
+        
+        ?>
         </div>
     </form>
 

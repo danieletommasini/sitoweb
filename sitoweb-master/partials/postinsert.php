@@ -10,12 +10,12 @@ try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully";
+    
     $category = $_POST["category"];
     $title = $_POST["title"];
     $desc = $_POST["desc"];
     $content = $_POST["textarea"];
-    echo $email;
+    echo "<script>alert('Post successfully inserted.');history.go(-1);</script>";
     
     $sql = $conn->prepare("INSERT INTO post (category, email, title, description, content) VALUES (:category, :email, :title, :description, :content)");
     $sql->bindParam(':category', $category);
