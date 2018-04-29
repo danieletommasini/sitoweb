@@ -73,8 +73,8 @@ h1 {
             <input style='display: none' type='text' name='category' value='arduino' />
             <label for='title'>Title</label><input type='text' class='form-control' name='title' id='title' /><br>
             <label for='desc'>Description</label><input type='text' class='form-control' name='desc' id='desc' /><br>
-            <label for='content'>Message</label><br>
-            <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Type here...'></textarea>
+            <label for='content'>Code</label><br>
+            <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Paste your code here...'></textarea>
             <br>
             <input type='submit' id='submit' class='btn btn-default' name='submit' value='Invia'/>
             </div>

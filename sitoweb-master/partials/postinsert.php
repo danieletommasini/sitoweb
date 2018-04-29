@@ -15,7 +15,6 @@ try {
     $title = $_POST["title"];
     $desc = $_POST["desc"];
     $content = $_POST["textarea"];
-    echo "<script>alert('Post successfully inserted.');history.go(-1);</script>";
     
     $sql = $conn->prepare("INSERT INTO post (category, email, title, description, content) VALUES (:category, :email, :title, :description, :content)");
     $sql->bindParam(':category', $category);
@@ -24,7 +23,13 @@ try {
     $sql->bindParam(':description', $desc);
     $sql->bindParam(':content', $content);
     
-    $sql->execute();
+    if($title != "" && $desc != "") { 
+        $sql->execute();
+    } else {
+        echo "<script>alert('Fill the fields before to send')</script>";
+    }
+    
+    echo "<script>history.go(-1);</script>";
     }
 catch(PDOException $e)
     {

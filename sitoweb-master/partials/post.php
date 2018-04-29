@@ -11,7 +11,7 @@ body {
 }
  
 #form {
-    background: #5f5f5f;
+    background:#5f5f5f17;
     width:90%;
     margin: 50px auto;
     padding: 25px;
@@ -57,29 +57,46 @@ h1 {
             echo "<form action='commentinsert.php' id='f1' method='post' autocomplete='off'>
                 <div id='form'>
                     
-                <h2> $title </h2><br>
-                <i> $description </i><br><br>
-                <p> $content<p>";
+                <strong style='color:#bd5c00; font-family:Courier new; font-size: 36px'> $title </strong>
+                <br>
+                <i style='color:black;font-family:Courier new; font-size: 20px'> $description </i>
+                <br><br>";
+                if($content != "") echo "<pre class='prettyprint linenums' style='color:black'>$content</pre>";
+            echo "<div class='panel-heading'></div>";
+                ;
                 
-                $sql = $conn->prepare("SELECT comments.content, usernames.username FROM `comments`
+                $sql = $conn->prepare("SELECT comments.content, comments.code, usernames.username FROM `comments`
                                        INNER JOIN users ON comments.email = users.email
                                        INNER JOIN usernames ON users.username = usernames.username
                                        WHERE comments.id_post LIKE '$id_post'");
                 $sql->execute();
                 $result = $sql->fetchAll();
-                echo "<div class='container'>
+                echo "<div class='container'style='width: 100%;'>
                         <div class='panel panel-default'>";
                             foreach($result as $i => $value){    
                                 $content = htmlentities($result[$i]["content"]);
                                 $username = htmlentities($result[$i]["username"]);
-                                echo "</span>$content</span><i> by $username</i><br>";
+                                $code = htmlentities($result[$i]["code"]);
+                                echo "<div class='panel-body' style='padding: 7px;'><i s style='color:#6194da'>Comment by $username</i>
+                                <br>";
+                                if($content != ""){
+                                    echo "<span style='color:black;font-family:Courier new; font-size: 16px'>$content</span>
+                                    <br>";
+                                }
+                                if($code != ""){
+                                    echo "<pre class='prettyprint linenums' style='color:black'>$code</pre>
+                                    <br>";
+                                }    
+                                echo "<hr style='margin-bottom:-8px;'></div>";
                             }
                 echo "  </div>
                       </div>";
             if(isset($_SESSION["id"])){
-                echo "<textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Type here...'></textarea>
+                echo "<textarea name='content' form='f1' class='form-control' cols='30' rows='4' placeholder='Type here...'></textarea>
                 <br>
-                <input type='submit' id='submit' class='btn btn-default' name='submit' value='ADD COMMENT'/>";
+                <textarea name='code' form='f1' class='form-control' cols='30' rows='4' placeholder='Paste your code here...'></textarea>
+                <br>
+                <input type='submit' id='submit' class='btn btn-primary' name='submit' value='ADD COMMENT'/>";
             }
             
         } catch(PDOException $e) {

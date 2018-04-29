@@ -474,3 +474,6 @@
 [24-Apr-2018 07:04:22 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/post.php on line 32
 [24-Apr-2018 07:04:26 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/post.php on line 32
 [24-Apr-2018 07:09:27 UTC] PHP Parse error:  syntax error, unexpected 'id_post' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/arduino.php on line 54
+[29-Apr-2018 15:21:03 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/post.php on line 75
+[29-Apr-2018 15:21:08 UTC] PHP Parse error:  syntax error, unexpected 'color' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/post.php on line 75
+[29-Apr-2018 18:57:28 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/sitoweb/sitoweb-master/partials/commentinsert.php on line 29

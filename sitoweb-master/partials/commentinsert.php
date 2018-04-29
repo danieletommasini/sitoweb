@@ -12,16 +12,23 @@ try {
     // set the PDO error mode to exception
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
-    $content = $_POST["textarea"];
-    echo "<script>alert('Comment successfully inserted.');history.go(-1);</script>";
+    $content = $_POST["content"];
+    $code = $_POST["code"];
     
-    $sql = $conn->prepare("INSERT INTO `comments` (`id_post`, `content`, `email`) VALUES (:id_post, :content, :email);");
+    $sql = $conn->prepare("INSERT INTO `comments` (`id_post`, `content`, `code`, `email`) VALUES (:id_post, :content, :code, :email);");
     
     $sql->bindParam(':id_post', $id_post);
     $sql->bindParam(':content', $content);
+    $sql->bindParam(':code', $code);
     $sql->bindParam(':email', $email);
     
-    $sql->execute();
+    if($content != ""){
+        $sql->execute();
+    } else {
+        echo "<script>alert('Fill the fields before to send')</script>";
+    }
+    
+    echo "<script>history.go(-1);</script>";
     }
 catch(PDOException $e)
     {
