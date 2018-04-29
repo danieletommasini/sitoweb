@@ -57,7 +57,7 @@ h1 {
         }
     ?>
 
-    <form action='postinsert.php' id='f1' method='post'>
+    <form action='commentinsert.php' id='f1' method='post' autocomplete='off'>
         <div id='form'>
             
         <h2><?php echo "$title"; ?></h2><br>
@@ -65,11 +65,11 @@ h1 {
         <p><?php echo "$content"; ?><p>
         <?php
         
-        if(isset($_SESSION["id"])){
-            echo "<textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Type here...'></textarea>
-            <br>
-            <input type='submit' id='submit' class='btn btn-default' name='submit' value='ADD COMMENT'/>";
-        }
+            if(isset($_SESSION["id"])){
+                echo "<textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Type here...'></textarea>
+                <br>
+                <input type='submit' id='submit' class='btn btn-default' name='submit' value='ADD COMMENT'/>";
+            }
         
         ?>
         </div>

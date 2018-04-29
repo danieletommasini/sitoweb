@@ -66,7 +66,7 @@ h1 {
 
     if(isset($_SESSION["id"])){
         echo
-        "<form action='postinsert.php' id='f1' method='post'>
+        "<form action='postinsert.php' id='f1' method='post' autocomplete='off'>
             <div id='form'>
 
             <h1>Type here to add your post</h1>
