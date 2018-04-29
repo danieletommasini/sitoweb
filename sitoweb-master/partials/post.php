@@ -52,26 +52,40 @@ h1 {
                 $title = htmlentities($result[0]["title"]);
                 $description = htmlentities($result[0]["description"]);
                 $content = htmlentities($result[0]["content"]);
-        } catch(PDOException $e) {
-    		echo "Connection failed: " . $e->getMessage();
-        }
-    ?>
-
-    <form action='commentinsert.php' id='f1' method='post' autocomplete='off'>
-        <div id='form'>
-            
-        <h2><?php echo "$title"; ?></h2><br>
-        <i><?php echo "$description"; ?></i><br><br>
-        <p><?php echo "$content"; ?><p>
-        <?php
         
+
+            echo "<form action='commentinsert.php' id='f1' method='post' autocomplete='off'>
+                <div id='form'>
+                    
+                <h2> $title </h2><br>
+                <i> $description </i><br><br>
+                <p> $content<p>";
+                
+                $sql = $conn->prepare("SELECT comments.content, usernames.username FROM `comments`
+                                       INNER JOIN users ON comments.email = users.email
+                                       INNER JOIN usernames ON users.username = usernames.username
+                                       WHERE comments.id_post LIKE '$id_post'");
+                $sql->execute();
+                $result = $sql->fetchAll();
+                echo "<div class='container'>
+                        <div class='panel panel-default'>";
+                            foreach($result as $i => $value){    
+                                $content = htmlentities($result[$i]["content"]);
+                                $username = htmlentities($result[$i]["username"]);
+                                echo "</span>$content</span><i> by $username</i><br>";
+                            }
+                echo "  </div>
+                      </div>";
             if(isset($_SESSION["id"])){
                 echo "<textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Type here...'></textarea>
                 <br>
                 <input type='submit' id='submit' class='btn btn-default' name='submit' value='ADD COMMENT'/>";
             }
-        
-        ?>
+            
+        } catch(PDOException $e) {
+    		echo "Connection failed: " . $e->getMessage();
+        }
+    ?>
         </div>
     </form>
 

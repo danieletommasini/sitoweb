@@ -28,8 +28,8 @@ h1 {
     
   </style>
 <body>
-    <div class="container">
-    <div class="panel panel-default">
+<div class="container">
+  <div class="panel panel-default">
     <div class="panel-heading">List Of Posts</div>
     
     <?php
