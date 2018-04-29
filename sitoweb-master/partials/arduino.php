@@ -31,7 +31,6 @@ h1 {
     <div class="container">
     <div class="panel panel-default">
     <div class="panel-heading">List Of Posts</div>
-    <form class="form" action="post.php"  method="POST">
     
     <?php
         $servername = "localhost";
@@ -51,14 +50,13 @@ h1 {
 				$sql->execute();
                 $result = $sql->fetchAll();
                 for($i=0; $i < count($result); $i++){
-                    echo '<div class="panel-body"><input class="btn" id="' . $result[$i]["id_post"] . '" value="' . $result[$i]["title"] . '" name="' . $result[$i]["id_post"] . '" type="submit"> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
+                    echo '<div class="panel-body"><button class="btn" id="' . $result[$i]["id_post"] . '" value="' . $result[$i]["id_post"] . '"' . ' onclick="link(this)">' . $result[$i]["title"] . '</button> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
                 }
         } catch(PDOException $e) {
     		echo "Connection failed: " . $e->getMessage();
         }
     
     ?>
-    </form>
   </div>
 </div>
 
@@ -86,6 +84,12 @@ h1 {
 
 </form>
    <script language=”javascript” src=”liveclock.js”></script> <body onLoad=”show_clock()”></script>
+   <script>
+       function link(el){
+           document.cookie = "id_post=" + el.value;
+           window.location.href = "/sitoweb/sitoweb-master/partials/post.php";
+       }
+   </script>
 
 
 

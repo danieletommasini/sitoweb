@@ -33,10 +33,7 @@ h1 {
 <body>
     
     <?php 
-        $id_post = 0;
-        foreach ($_POST as $id => $title) {
-            $id_post = $id;
-        }
+        $id_post = $_COOKIE["id_post"];
        
         $servername = "localhost";
 	    $username = "root";
