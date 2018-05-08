@@ -68,7 +68,8 @@ h1 {
                 $sql = $conn->prepare("SELECT comments.content, comments.code, usernames.username FROM `comments`
                                        INNER JOIN users ON comments.email = users.email
                                        INNER JOIN usernames ON users.username = usernames.username
-                                       WHERE comments.id_post LIKE '$id_post'");
+                                       WHERE comments.id_post LIKE '$id_post'
+                                       ORDER BY comments.id_comment");
                 $sql->execute();
                 $result = $sql->fetchAll();
                 echo "<div class='container'style='width: 100%;'>
