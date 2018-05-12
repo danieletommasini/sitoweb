@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <?php require("toolbar.php");?>
-
+     
   <style>
 body {
     color: #fff;
@@ -28,17 +28,16 @@ h1 {
     
   </style>
 <body>
+    
 <div class="container">
   <div class="panel panel-default">
     <div class="panel-heading">List Of Posts</div>
-    
     <?php
         $servername = "localhost";
 		$username = "root";
 		$password = "";
 		$dbname = "forum";
         $q = $_COOKIE["text"];
-        print_r($_COOKIE);
         
         try {
    				$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php
-    require("toolbar.php");
-    session_start();
-?>
+<?php require("toolbar.php");?>
 
   <style>
 body {

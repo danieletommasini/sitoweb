@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 
   <head>
     <meta charset="utf-8">
@@ -9,6 +9,7 @@
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <link href="/sitoweb/sitoweb-master/style.css" rel="stylesheet" type="text/css">
   </head>
+    <body style="background-color: #80808036;">
 
 
 <script>
@@ -150,7 +151,8 @@ $(document).ready(function(){
 </nav>
 <script>
        function search(){
-          document.cookie = "text=" + document.getElementById("text").value;
+          document.cookie = "text=" + document.getElementById("text").value + "; path=/;";
           window.location.href = "https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/search.php";
        }
    </script>
+</body>
