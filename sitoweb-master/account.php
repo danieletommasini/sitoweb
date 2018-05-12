@@ -28,7 +28,7 @@
                     <div class="panel-body" style="margin-left: 10px;margin-right: 10px;"><i style="color:#6ea4c5">Old Password </i><input type="text" id="oldpass"></div>
                     <div class="panel-body" style="margin-left: 10px;margin-right: 10px;"><i style="color:#6ea4c5">New Password </i><input type="text" id="newpass"></div>
                     <div class="panel-body" style="margin-left: 10px;margin-right: 10px;"><i style="color:#6ea4c5">Reply Password </i><input type="text" id="newpassreply"></div>
-                    <buttom class="btn-info" onclick"VerifyPass()">Verify Password</button>
+                    <button class="btn-info" style="margin-bottom: 1%;margin-left: 4%; border-radius:5px onclick"VerifyPass()">Verify Password</button>
                     ';
                 }
         } catch(PDOException $e) {

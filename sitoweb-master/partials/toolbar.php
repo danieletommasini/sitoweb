@@ -15,10 +15,6 @@
   </head>
     <body style="background-color: #80808036;">
 
-<!--<div class="container">-->
-       <!-- <h1><p style="color : green">S</p><p>ource</p><p style="color:red">C</p><p>ode</p><p style="color:blue">Stack</p></h1>-->
-     <!-- GIOVANNI FALCONE <a href="#" class="btn btn-default" data-toggle="popover" data-placement="bottom" style="position: absolute; right: 2%; top: 1%;z-index:10;" data-content="Contentrtert">Login </a>-->
-    <!--   <button class="btn btn-default" style="position: absolute; right: 2%; top: 1%;z-index:10;">Login</button>-->
 
 <script>
 $(document).ready(function(){
@@ -65,7 +61,7 @@ $(document).ready(function(){
         <li><a href="/sitoweb/sitoweb-master/partials/css.php">Css</a></li>
         <li><a href="/sitoweb/sitoweb-master/partials/javascript.php">JavaScript</a></li>
         <li><a href="/sitoweb/sitoweb-master/partials/php.php">Php</a></li>
-        <form class="navbar-form navbar-left" action="/action_page.php">
+        <form class="navbar-form navbar-left" action="search.php">
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Search" name="search">
           </div>
@@ -73,7 +69,7 @@ $(document).ready(function(){
         </form>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <?php
+      <?php
           
             session_start();
             if(!isset($_SESSION["id"])){
@@ -151,8 +147,7 @@ $(document).ready(function(){
                   </ul>
                 </div>";
           }
-
-?>
+        ?>
       </ul>
     </div>
   </div>
