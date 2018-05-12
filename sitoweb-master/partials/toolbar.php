@@ -61,7 +61,7 @@ $(document).ready(function(){
         <li><a href="/sitoweb/sitoweb-master/partials/css.php">Css</a></li>
         <li><a href="/sitoweb/sitoweb-master/partials/javascript.php">JavaScript</a></li>
         <li><a href="/sitoweb/sitoweb-master/partials/php.php">Php</a></li>
-        <form class="navbar-form navbar-left" action="search.php">
+        <form class="navbar-form navbar-left" action="/sitoweb/sitoweb-master/partials/search.php" method="POST">
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Search" name="search">
           </div>
