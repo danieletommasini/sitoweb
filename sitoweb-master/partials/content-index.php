@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-      <body>
+
      <div  style="background-color:#d34b41;color:#fff;">
     <br><div style="margin-left:1%;margin-right=50%">
        <!--  <img src="/sitoweb/sitoweb-master/image/error.jpg" style="margin-left:75%;" height="200" width="200">-->
@@ -55,9 +54,3 @@ coding to fix
     </div>-->
   </div>
 </div>
-
-
-</body>
-    
-</body>
-</html>

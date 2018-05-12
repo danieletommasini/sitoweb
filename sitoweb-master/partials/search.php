@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<?php require("toolbar.php");session_start();?>
+<?php require("toolbar.php");?>
 
   <style>
 body {
@@ -37,7 +37,8 @@ h1 {
 		$username = "root";
 		$password = "";
 		$dbname = "forum";
-        $q = $_POST["search"];
+        $q = $_COOKIE["text"];
+        print_r($_COOKIE);
         
         try {
    				$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);

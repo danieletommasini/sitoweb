@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-  <link href="/sitoweb/sitoweb-master/style.css" rel="stylesheet" type="text/css">
-  
 
-  
-  	
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <link href="/sitoweb/sitoweb-master/style.css" rel="stylesheet" type="text/css">
   </head>
-    <body style="background-color: #80808036;">
 
 
 <script>
@@ -61,12 +56,13 @@ $(document).ready(function(){
         <li><a href="/sitoweb/sitoweb-master/partials/css.php">Css</a></li>
         <li><a href="/sitoweb/sitoweb-master/partials/javascript.php">JavaScript</a></li>
         <li><a href="/sitoweb/sitoweb-master/partials/php.php">Php</a></li>
-        <form class="navbar-form navbar-left" action="/sitoweb/sitoweb-master/partials/search.php" method="POST">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search" name="search">
+        
+          <div class="form-group navbar-form navbar-left">
+            <input id="text" type="text" class="form-control" placeholder="Search" name="search" autocomplete="off">
+            <button class="btn btn-default" onclick="search()">Submit</button>
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+          
+          
       </ul>
       <ul class="nav navbar-nav navbar-right">
       <?php
@@ -152,5 +148,9 @@ $(document).ready(function(){
     </div>
   </div>
 </nav>
-</body>
-</html>
+<script>
+       function search(){
+          document.cookie = "text=" + document.getElementById("text").value;
+          window.location.href = "https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/search.php";
+       }
+   </script>
