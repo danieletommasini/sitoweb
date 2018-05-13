@@ -3,25 +3,25 @@
      <div  style="background-color:#d34b41;color:#fff;">
     <br><div style="margin-left:1%;margin-right=50%">
        <!--  <img src="/sitoweb/sitoweb-master/image/error.jpg" style="margin-left:75%;" height="200" width="200">-->
-        <h1>Problemi col tuo codice???</h1><br>
-    <p>Non riesci a trovare il problema che non fa funzionare il tuo codice, application web o programma?</p>
+        <h1>Problems with your code?</h1><br>
+    <p>Cannot you find the problem that does not make your code, application web or program to work?</p>
    <br>
-    <h4>Condividilo cosicchè chiunque più o meno esperto di te può aiutarti a trovare il tuo errore e sistemare, migliorare , il tuo codice.</h4><br>
+    <h4>Share that, so anybody, more or less expert than you, can help to find your bug, fix it, and improve your code.</h4><br>
     </div></div>
        <div style="background-color:#6265e8;color:#fff;">
-    <br><div style="margin-left:1%;margin-right=1%"><h1 >Perchè condividere il tuo codice???</h1><br>
-    <p>La condivisione non di basa solo sul cercare aiuto ma anche nella prevenzione.</p><br>
-    <h4>Il tuo codice può essere sempre migliorato ma nel caso non potesse è una risorsa che potra servire a tutti.</h4><br>
+    <br><div style="margin-left:1%;margin-right=1%"><h1 >Why sharing your code?</h1><br>
+    <p>Sharing is not just based on searching help, but also on prevention.</p><br>
+    <h4>Your code can always be improved, but in the case could not, it is a resource that can be used by everybody.</h4><br>
   </div></div>
        <div style="background-color:#50bc54;color:#fff;">
-  <div style="margin-left:1%;margin-right=1%"><br><h1>Perchè fare il lavoro degli altri???</h1><br>
-    <p>Non ha senso fare nulla gratis ma come il 99% delle risorse open source la condivisione è fondamentale</p><br>
-    <h4>Correggere e migliorare del codice che potra servire non solo all'utente che richiede aiuto ma anche a chiunque in futuro necessitare a infinite persone, pure a te.</h4><br>
+  <div style="margin-left:1%;margin-right=1%"><br><h1>Why doing others' work?</h1><br>
+    <p>Doing something free makes no sense, but with the 99% of open source resources sharing is fundamental.</p><br>
+    <h4>Correct and improve the code that will serve not only to the user who requires help but also to countless other people in the future, also to you.</h4><br>
 </div></div>
        <div style="background-color:#a171b8;color:#fff;">
-    <br><div style="margin-left:1%;margin-right=1%"><h1>Per tutti???</h1><br>
-<p>Che sia un programma per l'universita, per la scuola o per lavoro perche non dovresti poter chiuedere aiuto? Imparando magari qualcosa?</p><br>
-<h4>Chi te lo vieta? Noi di certo no :) Il primo passo è il login </h4><br>
+    <br><div style="margin-left:1%;margin-right=1%"><h1>Is it for anybody?</h1><br>
+<p>Whether it is a program for college, school or work because you should not be able to help? Perhaps learning something?</p><br>
+<h4>Who forbids you? We certainly do not, the first step is login. </h4><br>
 </div></div>
 <!--
    <div class="col-sm-6" style="background-color:cornsilk; border-radius: 2%;z-index:-3;border-style:groove">
