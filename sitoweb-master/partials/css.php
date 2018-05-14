@@ -69,7 +69,7 @@ h1 {
         "<form action='postinsert.php' id='f1' method='post' autocomplete='off'>
             <div id='form' style='margin-right: 0; margin-left: 0;'>
 
-            <h1 style='color:#337ab7'>Type here to add your post</h1>
+            <h1 style='color:#337ab7'>Add your post</h1>
             <input style='display: none' type='text' name='category' value='css' />
             <label for='title' style='color:black'>Title</label><input type='text' class='form-control' name='title' id='title' /><br>
             <label for='desc' style='color:black'>Description</label><input type='text' class='form-control' name='desc' id='desc' /><br>
