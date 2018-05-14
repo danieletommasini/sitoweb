@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html>
     <body>
         <?php require("partials/toolbar.php");?>
@@ -13,4 +13,4 @@
         </style>
         <?php require("partials/content-index.php");?>
     </body>
-</html>
+</html>-->

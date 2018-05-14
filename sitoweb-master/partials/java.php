@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <?php require("toolbar.php");?>
-<style>
-   body {
+
+  <style>
+body {
     color: #fff;
 }
  
 #form {
     background: #5f5f5f;
-    width:90%;
+    width:100%;
     margin: 50px auto;
     padding: 25px;
     overflow: hidden;
@@ -24,29 +25,73 @@ h1 {
     margin-bottom: 20px;
 }
 
-</style>
+    
+  </style>
 <body>
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">List Of Posts</div>
+    
     <?php
+        $servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "forum";
+        
+        try {
+   				$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    			// set the PDO error mode to exception
+    			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                $sql = $conn->prepare("SELECT post.id_post, post.title, usernames.username FROM `post`
+                                       INNER JOIN users ON post.email = users.email
+                                       INNER JOIN usernames ON users.username = usernames.username
+                                       WHERE post.category LIKE 'java'
+                                       GROUP BY post.id_post DESC");
+				$sql->execute();
+                $result = $sql->fetchAll();
+                for($i=0; $i < count($result); $i++){
+                    echo '<div class="panel-body"><button class="btn" id="' . $result[$i]["id_post"] . '" value="' . $result[$i]["id_post"] . '"' . ' onclick="link(this)">' . $result[$i]["title"] . '</button> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
+                }
+        } catch(PDOException $e) {
+    		echo "Connection failed: " . $e->getMessage();
+        }
+    
+    ?>
+  </div>
 
 
-    session_start();
+
+
+<?php
 
     if(isset($_SESSION["id"])){
         echo
-        "<form action='postinsert.php' id='f1' method='post'>
-            <div id='form'>
+        "<form action='postinsert.php' id='f1' method='post' autocomplete='off'>
+            <div id='form' style='margin-right: 0; margin-left: 0;'>
 
             <h1>Type here to add your post</h1>
             <input style='display: none' type='text' name='category' value='java' />
             <label for='title'>Title</label><input type='text' class='form-control' name='title' id='title' /><br>
             <label for='desc'>Description</label><input type='text' class='form-control' name='desc' id='desc' /><br>
-            <label for='content'>Message</label><br>
-            <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10'>Type here ...</textarea>
- 
+            <label for='content'>Code</label><br>
+            <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Paste your code here...'></textarea>
+            <br>
             <input type='submit' id='submit' class='btn btn-default' name='submit' value='Invia'/>
             </div>
         </form>";
     }
 ?>
+
+</div>
+   <script language=”javascript” src=”liveclock.js”></script> <body onLoad=”show_clock()”></script>
+   <script>
+       function link(el){
+           document.cookie = "id_post=" + el.value;
+           window.location.href = "/sitoweb/sitoweb-master/partials/post.php";
+       }
+   </script>
+
+
+
 </body>
 </html>

@@ -9,7 +9,7 @@ body {
  
 #form {
     background: #5f5f5f;
-    width:90%;
+    width:100%;
     margin: 50px auto;
     padding: 25px;
     overflow: hidden;
@@ -58,7 +58,7 @@ h1 {
     
     ?>
   </div>
-</div>
+
 
 
 
@@ -67,7 +67,7 @@ h1 {
     if(isset($_SESSION["id"])){
         echo
         "<form action='postinsert.php' id='f1' method='post' autocomplete='off'>
-            <div id='form'>
+            <div id='form' style='margin-right: 0; margin-left: 0;'>
 
             <h1>Type here to add your post</h1>
             <input style='display: none' type='text' name='category' value='arduino' />
@@ -82,7 +82,7 @@ h1 {
     }
 ?>
 
-</form>
+</div>
    <script language=”javascript” src=”liveclock.js”></script> <body onLoad=”show_clock()”></script>
    <script>
        function link(el){

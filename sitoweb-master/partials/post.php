@@ -90,9 +90,9 @@ h1 {
                 echo "  </div>
                       </div>";
             if(isset($_SESSION["id"])){
-                echo "<textarea name='content' form='f1' class='form-control' cols='30' rows='4' placeholder='Type here...'></textarea>
+                echo "<span style='color:black'>Comment:</span><br><textarea name='content' form='f1' class='form-control' cols='30' rows='4' placeholder='Type here...'></textarea>
                 <br>
-                <textarea name='code' form='f1' class='form-control' cols='30' rows='4' placeholder='Paste your code here...'></textarea>
+                <span style='color:black'>Code:</span><br><textarea name='code' form='f1' class='form-control' cols='30' rows='4' placeholder='Paste your code here...'></textarea>
                 <br>
                 <input type='submit' id='submit' class='btn btn-primary' name='submit' value='ADD COMMENT'/>";
             }
