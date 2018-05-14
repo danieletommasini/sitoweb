@@ -102,36 +102,39 @@ h3 {
 
 <div class="bgimg-1">
   <div class="caption">
-    <span class="border">SCROLL DOWN</span>
+    <span class="border">PROBLEMS WITH YOUR CODE?</span>
   </div>
 </div>
 
 <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">Parallax Demo</h3>
-  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+  <h3 style="text-align:center;">Share</h3>
+  <p style="text-align:center;">Sharing is not just based on searching help, but also on prevention.</p>
+  <h4 style="text-align:center;">Your code can always be improved, but in the case could not, it is a resource that can be used by everybody.</h4>
 </div>
 
 <div class="bgimg-2">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">LESS HEIGHT</span>
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">WHY DOING OTHER PEOPLE'S WORK?</span>
   </div>
 </div>
 
 <div style="position:relative;">
   <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    <p style="text-align:center;">Doing something free makes no sense, but with the 99% of open source resources sharing is fundamental.</p>
+    <h4 style="text-align:center;">Correct and improve the code that will serve not only to the user who requires help but also to countless other people in the future, also to you.</h4>
   </div>
 </div>
 
 <div class="bgimg-3">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SCROLL UP</span>
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">IS IT FOR ANYBODY?</span>
   </div>
 </div>
 
 <div style="position:relative;">
   <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+    <p style="text-align:center;">Whether it is a program for college, school or work because you should not be able to help? Perhaps learning something?</p>
+    <h4 style="text-align:center;">Who forbids you? We certainly do not, the first step is login. </h4>
   </div>
 </div>
 

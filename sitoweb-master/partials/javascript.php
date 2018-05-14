@@ -8,7 +8,7 @@ body {
 }
  
 #form {
-    background: #5f5f5f;
+    background: #d4d4d4;
     width:100%;
     margin: 50px auto;
     padding: 25px;
@@ -69,14 +69,14 @@ h1 {
         "<form action='postinsert.php' id='f1' method='post' autocomplete='off'>
             <div id='form' style='margin-right: 0; margin-left: 0;'>
 
-            <h1>Type here to add your post</h1>
+            <h1 style='color:#337ab7'>Type here to add your post</h1>
             <input style='display: none' type='text' name='category' value='javascript' />
-            <label for='title'>Title</label><input type='text' class='form-control' name='title' id='title' /><br>
-            <label for='desc'>Description</label><input type='text' class='form-control' name='desc' id='desc' /><br>
-            <label for='content'>Code</label><br>
+            <label for='title' style='color:black'>Title</label><input type='text' class='form-control' name='title' id='title' /><br>
+            <label for='desc' style='color:black'>Description</label><input type='text' class='form-control' name='desc' id='desc' /><br>
+            <label for='content' style='color:black'>Code</label><br>
             <textarea  name='textarea' id='msg' form='f1' class='form-control' cols='30' rows='10' placeholder='Paste your code here...'></textarea>
             <br>
-            <input type='submit' id='submit' class='btn btn-default' name='submit' value='Invia'/>
+            <input type='submit' id='submit' class='btn btn-primary' name='submit' value='Send'/>
             </div>
         </form>";
     }

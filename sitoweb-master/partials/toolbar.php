@@ -7,7 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-    <link href="/sitoweb/sitoweb-master/style.css" rel="stylesheet" type="text/css">
+    <!--<link href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/style.css" rel="stylesheet" type="text/css">-->
   </head>
     <body style="background-color: #80808036;">
 
@@ -19,6 +19,13 @@ $(document).ready(function(){
 </script>
 
 <style>
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
   
   .modal-backdrop.fade.in{
     z-index:-1;
@@ -40,7 +47,7 @@ $(document).ready(function(){
   
 
 
-<nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" data-offset-top="197" style="z-index: unset;position:sticky">
+<nav class="navbar navbar-inverse navbar-static-top" data-spy="affix" data-offset-top="197" style="position:sticky">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -48,7 +55,7 @@ $(document).ready(function(){
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/index.php"><p style="font-family:Impact, Charcoal, sans-serif">ScS</p></a>
+      <a class="navbar-brand" href="https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/index.php"><p style="font-family:Impact, Charcoal, sans-serif">Source Code Sharing</p></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -67,7 +74,7 @@ $(document).ready(function(){
           
           
       </ul>
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right" style="margin-right:0%">
       <?php
           
             session_start();
@@ -84,7 +91,7 @@ $(document).ready(function(){
               <div class='modal-content'>
                 <div class='modal-header'>
                   <button type='button' class='close' data-dismiss='modal'>&times;</button>
-                  <h4 class='modal-title'>Log In</h4>
+                  <h4 class='modal-title' style='color:black'>Log In</h4>
                 </div>
                 <div class='modal-body'>";
                 
@@ -113,7 +120,7 @@ $(document).ready(function(){
               <div class='modal-content'>
                 <div class='modal-header'>
                   <button type='button' class='close' data-dismiss='modal'>&times;</button>
-                  <h4 class='modal-title'>Sign In</h4>
+                  <h4 class='modal-title'style='color:black'>Sign In</h4>
                 </div>
               <div class='modal-body'>";
               

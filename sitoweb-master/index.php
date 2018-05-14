@@ -1,6 +1,6 @@
-<!--<!DOCTYPE html>
-<html>
-    <body>
+<!DOCTYPE html>
+
+    
         <?php require("partials/toolbar.php");?>
         <style>
             html, body{
@@ -12,5 +12,4 @@
             }
         </style>
         <?php require("partials/content-index.php");?>
-    </body>
-</html>-->
+    

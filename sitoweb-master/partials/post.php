@@ -8,7 +8,7 @@ body {
 }
  
 #form {
-    background:#5f5f5f17;
+    background:#d4d4d4;
     width:90%;
     margin: 50px auto;
     padding: 25px;
@@ -54,7 +54,7 @@ h1 {
             echo "<form action='commentinsert.php' id='f1' method='post' autocomplete='off'>
                 <div id='form'>
                     
-                <strong style='color:#bd5c00; font-family:Courier new; font-size: 36px'> $title </strong>
+                <strong style='color:#337ab7; font-family:Courier new; font-size: 36px'> $title </strong>
                 <br>
                 <i style='color:black;font-family:Courier new; font-size: 20px'> $description </i>
                 <br><br>";
