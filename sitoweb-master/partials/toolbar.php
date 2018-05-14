@@ -163,5 +163,5 @@ $(document).ready(function(){
           document.cookie = "text=" + document.getElementById("text").value + "; path=/;";
           window.location.href = "https://lamp-project-danieletommasini.c9users.io/sitoweb/sitoweb-master/partials/search.php";
        }
-   </script>
+</script>
 </body>
