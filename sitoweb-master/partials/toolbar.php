@@ -34,6 +34,8 @@ $(document).ready(function(){
   .affix + .container-fluid {
       padding-top: 70px;
   }
+  
+  
   </style>
   
 
