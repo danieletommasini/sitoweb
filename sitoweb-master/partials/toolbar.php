@@ -110,7 +110,7 @@ $(document).ready(function(){
           
           <!-- ___________________________________________________-->
           
-          <button type='button' class='btn btn-success btn-lg navbar-btn' style=' right: 1%; top: 1%;z-index:10; padding: 3px 12px;' data-toggle='modal' data-target='#signin'><span class='glyphicon glyphicon-user'></span> Sing In</button>
+          <button type='button' class='btn btn-success btn-lg navbar-btn' style=' right: 1%; top: 1%;z-index:10; padding: 3px 12px;' data-toggle='modal' data-target='#signin'><span class='glyphicon glyphicon-user'></span> Sign In</button>
           
           <!-- Modal -->
           <div id='signin' class='modal fade' role='dialog'>

@@ -50,7 +50,7 @@ h1 {
 				$sql->execute();
                 $result = $sql->fetchAll();
                 for($i=0; $i < count($result); $i++){
-                    echo '<div class="panel-body"><button class="btn" id="' . $result[$i]["id_post"] . '" value="' . $result[$i]["id_post"] . '"' . ' onclick="link(this)">' . $result[$i]["title"] . '</button> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
+                    echo '<div class="panel-body"><button class="btn btn-default" id="' . $result[$i]["id_post"] . '" value="' . $result[$i]["id_post"] . '"' . ' onclick="link(this)">' . $result[$i]["title"] . '</button> <i style="color:black">by ' . $result[$i]["username"] . '</i></div>';
                 }
         } catch(PDOException $e) {
     		echo "Connection failed: " . $e->getMessage();

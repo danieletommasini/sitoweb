@@ -82,7 +82,7 @@
                                 <div class="panel-body" style="margin-left: 10px;margin-right: 10px;"><i style="color:#6ea4c5">Old Password </i><input type="password" name="oldpass"></div>
                                 <div class="panel-body" style="margin-left: 10px;margin-right: 10px;"><i style="color:#6ea4c5">New Password </i><input type="password" name="newpass"></div>
                                 <div class="panel-body" style="margin-left: 10px;margin-right: 10px;"><i style="color:#6ea4c5">Reply Password </i><input type="password" name="newpassreply"></div>
-                                <input type="submit" name="passverify" value="Verify Password"  class="btn-info" style="margin-bottom: 1%;margin-left: 4%; border-radius:5px">
+                                <input type="submit" name="passverify" value="Verify Password"  class="btn btn-info" style="margin-bottom: 1%;margin-left: 4%; border-radius:5px">
                             </form>
                         </div>
                     </div>
